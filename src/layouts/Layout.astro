@@ -1,0 +1,36 @@
+---
+// src/layouts/Layout.astro
+import FuturisticHeader from '../components/header/Header.jsx';
+import ModernFooter from '../components/header/footer.jsx';
+import WhatsAppButton from '../components/common/WhatsAppButton.jsx';
+import '../styles/global.css';
+
+export interface Props {
+  title: string;
+  description?: string;
+}
+
+const { title, description = "JM AI Consulting - Soluciones de gestión por procesos y transformación digital" } = Astro.props;
+---
+
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{title} | JM AI Consulting</title>
+    <meta name="description" content={description} />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <!-- Puedes agregar aquí otras meta tags, fuentes, etc. -->
+  </head>
+  <body class="min-h-screen bg-gray-100">
+    <FuturisticHeader client:load />
+    
+    <main>
+      <slot />
+    </main>
+    
+    <ModernFooter client:load />
+  </body>
+  
+</html>
