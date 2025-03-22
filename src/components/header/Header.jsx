@@ -72,7 +72,6 @@ const FuturisticHeader = () => {
     { name: 'recursos', path: '/recursos', label: 'RECURSOS' },
     { name: 'contacto', path: '/contacto', label: 'CONTACTO' }
   ];
-
   return (
     <>
       {/* Barra de navegación principal */}
@@ -158,6 +157,19 @@ const FuturisticHeader = () => {
                           </li>
                           <li>
                             <a 
+                              href="/servicios/bpm" 
+                              className="flex items-center pl-4 pr-8 py-3 text-sm text-gray-300 hover:text-cyan-400 hover:bg-cyan-950/30 transition-colors"
+                            >
+                              <span className="w-6 h-6 mr-3 flex items-center justify-center text-cyan-500">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-4 h-4">
+                                  <path d="M17 3a2.828 2.828 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5L17 3z"></path>
+                                </svg>
+                              </span>
+                              BPM
+                            </a>
+                          </li>
+                          <li>
+                            <a 
                               href="/servicios/data-analytics" 
                               className="flex items-center pl-4 pr-8 py-3 text-sm text-gray-300 hover:text-cyan-400 hover:bg-cyan-950/30 transition-colors"
                             >
@@ -220,10 +232,26 @@ const FuturisticHeader = () => {
                             >
                               <span className="w-6 h-6 mr-3 flex items-center justify-center text-cyan-500">
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-4 h-4">
-                                  <polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline>
+                                  <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path>
+                                  <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path>
                                 </svg>
                               </span>
                               Gestión de Proyectos
+                            </a>
+                          </li>
+                          <li>
+                            <a 
+                              href="/servicios/conocimiento" 
+                              className="flex items-center pl-4 pr-8 py-3 text-sm text-gray-300 hover:text-cyan-400 hover:bg-cyan-950/30 transition-colors"
+                            >
+                              <span className="w-6 h-6 mr-3 flex items-center justify-center text-cyan-500">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-4 h-4">
+                                  <path d="M15 3h4a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2h-4"></path>
+                                  <polyline points="10 17 15 12 10 7"></polyline>
+                                  <line x1="15" y1="12" x2="3" y2="12"></line>
+                                </svg>
+                              </span>
+                              Gestión del Conocimiento
                             </a>
                           </li>
                         </ul>
@@ -233,7 +261,6 @@ const FuturisticHeader = () => {
                 ))}
               </ul>
             </nav>
-
             {/* Botón "Contáctanos" con efecto de brillo */}
             <div className="hidden md:block">
               <a href="/contacto" className="relative inline-block group">
@@ -298,10 +325,12 @@ const FuturisticHeader = () => {
                     <ul className="mt-4 ml-10 space-y-3">
                       {[
                         { name: 'Gestión por Procesos', path: '/servicios/gestion-por-procesos' },
+                        { name: 'BPM', path: '/servicios/bpm' },
                         { name: 'Data Analytics', path: '/servicios/data-analytics' },
                         { name: 'Gestión de Proyectos', path: '/servicios/gestion-proyectos' },
                         { name: 'Gestión de Riesgos', path: '/servicios/gestion-riesgos' },
-                        { name: 'Sistemas de Gestión', path: '/servicios/sistemas-gestion' }
+                        { name: 'Sistemas de Gestión', path: '/servicios/sistemas-gestion' },
+                        { name: 'Gestión del Conocimiento', path: '/servicios/gestion-conocimiento' }
                       ].map((subItem, subIndex) => (
                         <li key={subItem.name} className={`overflow-hidden ${isMenuOpen ? 'translate-y-0 opacity-100' : 'translate-y-8 opacity-0'}`} style={{ transitionDelay: `${300 + subIndex * 50}ms`, transition: 'all 0.5s cubic-bezier(0.4, 0, 0.2, 1)' }}>
                           <a 

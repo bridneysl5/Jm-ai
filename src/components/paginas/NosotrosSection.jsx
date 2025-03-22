@@ -553,28 +553,7 @@ const NosotrosSeccion = () => {
         ))}
       </div>
       
-      {/* Certificaciones - Ajustadas para móviles */}
-      <div className={`mt-8 transition-all duration-700 delay-700 ${isVisible.experiencia ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
-        <h4 className="text-lg md:text-xl font-bold text-white mb-4">Certificaciones Internacionales</h4>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 md:gap-4">
-          {certificacionesData.map((cert, index) => (
-            <div 
-              key={cert.id}
-              className="bg-black/60 backdrop-blur-sm border border-blue-900/50 rounded-lg p-3 md:p-4 flex items-center hover:border-cyan-500/50 transition-all duration-300"
-              style={{ transitionDelay: `${900 + index * 150}ms` }}
-            >
-              <div className="w-10 h-10 md:w-12 md:h-12 flex-shrink-0 mr-3 md:mr-4 rounded-lg bg-gradient-to-br from-blue-600/30 to-cyan-400/30 flex items-center justify-center text-white font-bold">
-                ISO
-              </div>
-              <div>
-                <div className="text-xs md:text-sm text-blue-400">Certificación</div>
-                <div className="text-base md:text-lg font-bold text-white">{cert.nombre}</div>
-                <div className="text-xs text-gray-400">{cert.descripcion}</div>
-              </div>
-            </div>
-          ))}
-        </div>
-      </div>
+    
     </div>
   </div>
 </div>

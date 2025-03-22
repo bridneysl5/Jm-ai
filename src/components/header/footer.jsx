@@ -82,18 +82,13 @@ const ModernFooter = () => {
                 Soluciones innovadoras en gestión de procesos, transformación digital y análisis de datos para impulsar el éxito de tu organización.
               </p>
               <div className="flex space-x-3">
-                <a href="https://facebook.com" className="w-9 h-9 rounded-full bg-gray-800 flex items-center justify-center hover:bg-blue-600 transition-colors">
+                <a href="https://www.facebook.com/JM.AI.Consulting.Latam" className="w-9 h-9 rounded-full bg-gray-800 flex items-center justify-center hover:bg-blue-600 transition-colors">
                   <FaFacebookF className="text-white" />
                 </a>
-                <a href="https://linkedin.com" className="w-9 h-9 rounded-full bg-gray-800 flex items-center justify-center hover:bg-blue-700 transition-colors">
+                <a href="https://www.linkedin.com/company/jmaiconsulting/?viewAsMember=true" className="w-9 h-9 rounded-full bg-gray-800 flex items-center justify-center hover:bg-blue-700 transition-colors">
                   <FaLinkedinIn className="text-white" />
                 </a>
-                <a href="https://twitter.com" className="w-9 h-9 rounded-full bg-gray-800 flex items-center justify-center hover:bg-blue-400 transition-colors">
-                  <FaTwitter className="text-white" />
-                </a>
-                <a href="https://instagram.com" className="w-9 h-9 rounded-full bg-gray-800 flex items-center justify-center hover:bg-pink-600 transition-colors">
-                  <FaInstagram className="text-white" />
-                </a>
+                
               </div>
             </div>
           </div>
@@ -106,7 +101,7 @@ const ModernFooter = () => {
             </h3>
             <ul className="space-y-3">
               <li>
-                <a href="/servicios/procesos" className="text-gray-400 hover:text-cyan-400 transition-colors flex items-center">
+                <a href="/servicios/gestion-por-procesos" className="text-gray-400 hover:text-cyan-400 transition-colors flex items-center">
                   <span className="h-1.5 w-1.5 rounded-full bg-cyan-500 mr-2"></span>
                   Gestión por Procesos
                 </a>
@@ -118,7 +113,7 @@ const ModernFooter = () => {
                 </a>
               </li>
               <li>
-                <a href="/servicios/iso" className="text-gray-400 hover:text-cyan-400 transition-colors flex items-center">
+                <a href="/servicios/sistemas-gestion" className="text-gray-400 hover:text-cyan-400 transition-colors flex items-center">
                   <span className="h-1.5 w-1.5 rounded-full bg-cyan-500 mr-2"></span>
                   Sistemas de Gestión ISO
                 </a>
@@ -135,6 +130,24 @@ const ModernFooter = () => {
                   Gestión de Riesgos
                 </a>
               </li>
+              <li>
+                <a href="/servicios/bpm" className="text-gray-400 hover:text-cyan-400 transition-colors flex items-center">
+                  <span className="h-1.5 w-1.5 rounded-full bg-cyan-500 mr-2"></span>
+                  BPM
+                </a>
+              </li>
+              <li>
+                <a href="/servicios/sistemas-gestion" className="text-gray-400 hover:text-cyan-400 transition-colors flex items-center">
+                  <span className="h-1.5 w-1.5 rounded-full bg-cyan-500 mr-2"></span>
+                  Sistemas de Gestión
+                </a>
+              </li>
+              <li>
+                <a href="/servicios/conocimiento" className="text-gray-400 hover:text-cyan-400 transition-colors flex items-center">
+                  <span className="h-1.5 w-1.5 rounded-full bg-cyan-500 mr-2"></span>
+                  Gestión del Conocimiento
+                </a>
+              </li>
             </ul>
           </div>
           
@@ -146,27 +159,22 @@ const ModernFooter = () => {
             </h3>
             <ul className="space-y-3">
               <li>
-                <a href="/sobre-nosotros" className="text-gray-400 hover:text-cyan-400 transition-colors flex items-center">
+                <a href="/osotros" className="text-gray-400 hover:text-cyan-400 transition-colors flex items-center">
                   <span className="h-1.5 w-1.5 rounded-full bg-cyan-500 mr-2"></span>
                   Sobre Nosotros
                 </a>
               </li>
               <li>
-                <a href="/equipo" className="text-gray-400 hover:text-cyan-400 transition-colors flex items-center">
+                <a href="/evaluacion-gratuita" className="text-gray-400 hover:text-cyan-400 transition-colors flex items-center">
                   <span className="h-1.5 w-1.5 rounded-full bg-cyan-500 mr-2"></span>
-                  Nuestro Equipo
+                  EVALUACIÓN GRATUITA
                 </a>
               </li>
+              
               <li>
-                <a href="/proyectos" className="text-gray-400 hover:text-cyan-400 transition-colors flex items-center">
+                <a href="/recursos" className="text-gray-400 hover:text-cyan-400 transition-colors flex items-center">
                   <span className="h-1.5 w-1.5 rounded-full bg-cyan-500 mr-2"></span>
-                  Casos de Éxito
-                </a>
-              </li>
-              <li>
-                <a href="/blog" className="text-gray-400 hover:text-cyan-400 transition-colors flex items-center">
-                  <span className="h-1.5 w-1.5 rounded-full bg-cyan-500 mr-2"></span>
-                  Blog & Recursos
+                  Recursos y Podcast
                 </a>
               </li>
               <li>
@@ -188,23 +196,23 @@ const ModernFooter = () => {
               <li>
                 <a href="tel:+51999999999" className="text-gray-400 hover:text-cyan-400 transition-colors flex items-start">
                   <MdPhone className="text-cyan-500 mt-1 mr-3 flex-shrink-0" />
-                  <span>+51 999 999 999</span>
+                  <span>+51 914 811 842</span>
                 </a>
               </li>
               <li>
-                <a href="mailto:info@jmaiconsulting.com" className="text-gray-400 hover:text-cyan-400 transition-colors flex items-start">
+                <a href="mailto:contacto@jmaiconsulting.pe" className="text-gray-400 hover:text-cyan-400 transition-colors flex items-start">
                   <MdEmail className="text-cyan-500 mt-1 mr-3 flex-shrink-0" />
-                  <span>info@jmaiconsulting.com</span>
+                  <span>contacto@jmaiconsulting.pe</span>
                 </a>
               </li>
               <li>
                 <a href="https://maps.google.com" className="text-gray-400 hover:text-cyan-400 transition-colors flex items-start">
                   <MdLocationOn className="text-cyan-500 mt-1 mr-3 flex-shrink-0" />
-                  <span>Av. Principal 123, Lima, Perú</span>
+                  <span>Av. Nogales 251</span>
                 </a>
               </li>
               <li>
-                <a href="https://wa.me/51999999999" className="text-gray-400 hover:text-cyan-400 transition-colors flex items-start">
+                <a href="https://wa.me/51914811842" className="text-gray-400 hover:text-cyan-400 transition-colors flex items-start">
                   <FaWhatsapp className="text-cyan-500 mt-1 mr-3 flex-shrink-0" />
                   <span>WhatsApp Business</span>
                 </a>

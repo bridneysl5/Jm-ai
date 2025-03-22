@@ -9,68 +9,89 @@ const ServicesCarousel = () => {
   const autoplayRef = useRef(null);
   
   // Enhanced slide data with more futuristic descriptions and holographic themes
-  const slides = [
-    {
-      id: 1,
-      title: 'TRANSFORMACIÓN DIGITAL',
-      description: 'Te ayudamos a integrar la tecnología con tus operaciones para aumentar tu competitividad, habilitando nuevos modelos de negocio e impulsando tu crecimiento exponencial.',
-      image: '/images/services/digital-transformation.png',
-      gradient: 'from-cyan-400 via-blue-500 to-purple-600',
-      icon: 'M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z', // Computer icon
-      color: '#00ffff',
-      particles: 150
-    },
-    {
-      id: 2,
-      title: 'GESTIÓN POR PROCESOS',
-      description: 'Revolucionamos los flujos de trabajo mediante IA cuántica predictiva que se auto-optimiza, elevando la eficiencia operativa hasta un 400% mientras genera energía limpia a partir de datos redundantes.',
-      image: '/images/services/process-management.png',
-      gradient: 'from-cyan-400 via-blue-500 to-purple-600',
-      icon: 'M13 10V3L4 14h7v7l9-11h-7z', // Lightning bolt icon
-      color: '#00ffff',
-      particles: 150
-    },
-    {
-      id: 3,
-      title: 'SISTEMAS DE GESTIÓN',
-      description: 'Desplegamos ecosistemas neuroadaptativos que evolucionan con biomimetismo digital, incorporando tecnología de sincronización multidimensional para generar interfaces que anticipan necesidades antes de ser concebidas.',
-      image: '/images/services/management-systems.png',
-      gradient: 'from-teal-400 via-cyan-500 to-blue-600',
-      icon: 'M9 20l-5.447-2.724A1 1 0 013 16.382V5.618a1 1 0 011.447-.894L9 7m0 13l6-3m-6 3V7m6 10l4.553 2.276A1 1 0 0021 18.382V7.618a1 1 0 00-.553-.894L15 4m0 13V4m0 0L9 7', // Cube icon
-      color: '#00ffe0',
-      particles: 180
-    },
-    {
-      id: 4,
-      title: 'GESTIÓN DE RIESGOS',
-      description: 'Implementamos algoritmos de retroalimentación temporal que proyectan dimensiones de riesgo paralelas, creando simulaciones que navegan entre realidades potenciales con precisión cuántica del 99.97%.',
-      image: '/images/services/risk-management.png',
-      gradient: 'from-emerald-400 via-teal-500 to-cyan-600',
-      icon: 'M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z', // Warning icon
-      color: '#00ff9d',
-      particles: 120
-    },
-    {
-      id: 5,
-      title: 'GESTIÓN DE PROYECTOS',
-      description: 'Fusionamos telepatía sintética con interfaces neuronales para crear ecosistemas de proyectos auto-conscientes donde cada elemento responde a intenciones cognitivas antes de ser articuladas verbalmente.',
-      image: '/images/services/project-management.png',
-      gradient: 'from-blue-400 via-indigo-500 to-purple-600',
-      icon: 'M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-3 7h3m-3 4h3m-6-4h.01M9 16h.01', // Clipboard icon
-      color: '#8080ff',
-      particles: 160
-    },
-    {
-      id: 6,
-      title: 'DATA ANALYTICS',
-      description: 'Desplegamos metaconciencia analítica que transforma datos en entidades sensoriales tangibles, permitiendo interactuar físicamente con variables en un universo holográfico donde cada insight genera ondas gravitacionales de innovación.',
-      image: '/images/services/data.png',
-      gradient: 'from-purple-400 via-pink-500 to-red-600',
-      icon: 'M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z', // Chart icon
-      color: '#ff00ff',
-      particles: 200
-    }
-  ];
+  // Enhanced slide data with more futuristic descriptions and holographic themes
+const slides = [
+  {
+    id: 1,
+    title: 'GESTIÓN POR PROCESOS',
+    description: 'Optimizamos y automatizamos los procesos organizacionales para mejorar la eficiencia y la productividad de nuestros clientes, asegurando una mayor calidad en las operaciones.',
+    image: '/images/services/process-management.png',
+    gradient: 'from-cyan-400 via-blue-500 to-purple-600',
+    icon: 'M13 10V3L4 14h7v7l9-11h-7z', // Lightning bolt icon
+    color: '#00ffff',
+    particles: 150
+  },
+  {
+    id: 2,
+    title: 'SISTEMAS DE GESTIÓN ISO',
+    description: 'Implementamos soluciones tecnológicas que permiten a las organizaciones monitorear, controlar y mejorar sus sistemas de gestión, adaptándolos a las mejores prácticas del mercado.',
+    image: '/images/services/management-systems.png',
+    gradient: 'from-teal-400 via-cyan-500 to-blue-600',
+    icon: 'M9 20l-5.447-2.724A1 1 0 013 16.382V5.618a1 1 0 011.447-.894L9 7m0 13l6-3m-6 3V7m6 10l4.553 2.276A1 1 0 0021 18.382V7.618a1 1 0 00-.553-.894L15 4m0 13V4m0 0L9 7', // Cube icon
+    color: '#00ffe0',
+    particles: 180
+  },
+  {
+    id: 3,
+    title: 'TRANSFORMACIÓN DIGITAL',
+    description: 'Te ayudamos a integrar la tecnología con tus operaciones para aumentar tu competitividad, habilitando nuevos modelos de negocio e impulsando tu crecimiento exponencial.',
+    image: '/images/services/digital-transformation.png',
+    gradient: 'from-cyan-400 via-blue-500 to-purple-600',
+    icon: 'M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z', // Computer icon
+    color: '#00ffff',
+    particles: 150
+  },
+  {
+    id: 4,
+    title: 'GESTIÓN DE RIESGOS',
+    description: 'Implementamos soluciones tecnológicas que permiten a las organizaciones monitorear, controlar y mejorar sus sistemas de gestión, adaptándolos a las mejores prácticas del mercado.',
+    image: '/images/services/risk-management.png',
+    gradient: 'from-emerald-400 via-teal-500 to-cyan-600',
+    icon: 'M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z', // Warning icon
+    color: '#00ff9d',
+    particles: 120
+  },
+  {
+    id: 5,
+    title: 'GESTIÓN DE PROYECTOS',
+    description: 'Aplicamos metodologías ágiles y tradicionales para planificar, ejecutar y controlar proyectos de manera eficiente, asegurando el cumplimiento de plazos, presupuestos y resultados esperados.',
+    image: '/images/services/project-management.png',
+    gradient: 'from-blue-400 via-indigo-500 to-purple-600',
+    icon: 'M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-3 7h3m-3 4h3m-6-4h.01M9 16h.01', // Clipboard icon
+    color: '#8080ff',
+    particles: 160
+  },
+  {
+    id: 6,
+    title: 'DATA ANALYTICS',
+    description: 'Ayudamos a las empresas a implementar soluciones digitales que les permitan adaptarse y competir en la era digital, mejorando sus procesos, servicios y experiencia del cliente.',
+    image: '/images/services/data.png',
+    gradient: 'from-purple-400 via-pink-500 to-red-600',
+    icon: 'M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z', // Chart icon
+    color: '#ff00ff',
+    particles: 200
+  },
+  {
+    id: 7,
+    title: 'BPM',
+    description: 'Nos especializamos en guiar a las organizaciones a través de todo el ciclo de vida de BPM con la finalidad de impulsar los resultados comerciales, crear valor y permitir que las organizaciones cumplan sus objetivos de negocios con mayor agilidad.',
+    image: '/images/services/bpm.png',
+    gradient: 'from-blue-500 via-indigo-600 to-violet-700',
+    icon: 'M4 5a1 1 0 011-1h14a1 1 0 011 1v2a1 1 0 01-1 1H5a1 1 0 01-1-1V5zM4 13a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H5a1 1 0 01-1-1v-6zM16 13a1 1 0 011-1h2a1 1 0 011 1v6a1 1 0 01-1 1h-2a1 1 0 01-1-1v-6z', // Workflow icon
+    color: '#4d7aff',
+    particles: 170
+  },
+  {
+    id: 8,
+    title: 'GESTIÓN DEL CONOCIMIENTO',
+    description: 'Implementamos la Gestión del Conocimiento para mejorar eficiencia operativa y decisiones estratégicas, aplicando la Norma Técnica N° 001-2025-PCM/SGP y estándares internacionales.',
+    image: '/images/services/knowledge-management.png',
+    gradient: 'from-amber-400 via-orange-500 to-red-500',
+    icon: 'M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253', // Book icon
+    color: '#ffa200',
+    particles: 140
+  }
+];
   // Next slide logic
   const nextSlide = () => {
     setDirection(1);
@@ -235,7 +256,7 @@ const ServicesCarousel = () => {
                   {/* Service icon with animated aura */}
                   <div className="mb-6 relative">
                     <div 
-                      className="inline-flex items-center justify-center p-4 rounded-full shadow-lg relative z-10"
+                      className="inline-flex items-center justify-center p-4 rounded-full shadow-lg relative z-10 service-icon"
                       style={{ 
                         background: `linear-gradient(135deg, ${slide.color}, rgba(0,0,0,0.8))`,
                         boxShadow: `0 0 30px ${slide.color}50, 0 0 15px ${slide.color}30`
@@ -261,33 +282,37 @@ const ServicesCarousel = () => {
                     </div>
                   </div>
                   
-                  {/* Clean Modern Title - without glitch effect */}
-                  <div className="overflow-hidden relative">
-                    <div className="flex items-center mb-1">
-                      {/* Decorative binary prefix - visible only in desktop */}
-                      <div className="text-xs font-mono mr-2 opacity-70 tracking-wider hidden md:block" style={{ color: slide.color }}>
-                        01<span className="animate-blink">_</span>
-                      </div>
-                      
-                      <h2 
-                        className="text-5xl md:text-6xl font-black tracking-tight text-white relative z-10"
-                      >
-                        {slide.title}
-                        <span className="absolute -inset-1 blur-sm opacity-20" style={{ color: slide.color }}>{slide.title}</span>
-                      </h2>
-                    </div>
-                    
-                    {/* Underline with animated travel effect */}
-                    <div className="h-0.5 w-full bg-gray-700 relative overflow-hidden mt-2">
-                      <div 
-                        className="absolute h-full w-16 animate-travel" 
-                        style={{ 
-                          background: `linear-gradient(to right, transparent, ${slide.color}, transparent)`,
-                          animation: 'travel 3s ease-in-out infinite'
-                        }}
-                      ></div>
-                    </div>
-                  </div>
+               {/* Clean Modern Title - without glitch effect */}
+<div className="overflow-hidden relative">
+  <div className="flex items-center mb-1">
+    {/* Decorative binary prefix - visible only in desktop */}
+    <div className="text-xs font-mono mr-2 opacity-70 tracking-wider hidden md:block" style={{ color: slide.color }}>
+      01<span className="animate-blink">_</span>
+    </div>
+    
+    <h2 
+      className="text-4xl md:text-6xl font-black tracking-tight text-white relative z-10"
+      style={{ 
+        fontSize: slide.title.length > 15 ? 'clamp(1.75rem, 5vw, 3.75rem)' : '', 
+        lineHeight: slide.title.length > 15 ? '1.1' : '' 
+      }}
+    >
+      {slide.title}
+      <span className="absolute -inset-1 blur-sm opacity-20" style={{ color: slide.color }}>{slide.title}</span>
+    </h2>
+  </div>
+  
+  {/* Underline with animated travel effect */}
+  <div className="h-0.5 w-full bg-gray-700 relative overflow-hidden mt-2">
+    <div 
+      className="absolute h-full w-16 animate-travel" 
+      style={{ 
+        background: `linear-gradient(to right, transparent, ${slide.color}, transparent)`,
+        animation: 'travel 3s ease-in-out infinite'
+      }}
+    ></div>
+  </div>
+</div>
                   
                   {/* Futuristic Description with smooth fade-in instead of typing effect */}
                   <div className="relative animate-fade-in" style={{ animationDelay: '0.3s', animationDuration: '1s' }}>
@@ -298,6 +323,7 @@ const ServicesCarousel = () => {
                   
                   {/* Holographic Call-to-action Button */}
                   <div className="mt-10 animate-fade-in" style={{ animationDelay: '0.6s', animationDuration: '1s' }}>
+                    
                     <a
                       href={`/servicios/${slide.title.toLowerCase().replace(/\s+/g, '-')}`}
                       className="holo-button group relative overflow-hidden inline-flex items-center gap-3"
@@ -676,6 +702,38 @@ const ServicesCarousel = () => {
         
         .animate-fade-in {
           animation: fade-in 0.8s ease-out forwards;
+        }
+
+        /* Additional animations from your new styles */
+        .service-orbital {
+          transition: all 0.5s ease-in-out;
+        }
+
+        @keyframes fadeIn {
+          0% { opacity: 0; transform: scale(0.9); }
+          100% { opacity: 1; transform: scale(1); }
+        }
+
+        .fade-in {
+          animation: fadeIn 0.5s ease-in-out;
+        }
+
+        @keyframes pulse {
+          0%, 100% { opacity: 0.2; }
+          50% { opacity: 0.5; }
+        }
+
+        .animate-pulse-slow {
+          animation: pulse 4s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+        }
+
+        .service-icon {
+          transition: all 0.3s ease;
+        }
+
+        .service-icon:hover {
+          transform: scale(1.1);
+          box-shadow: 0 0 15px rgba(59, 130, 246, 0.3);
         }
       `}</style>
     </div>

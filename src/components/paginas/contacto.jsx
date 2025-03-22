@@ -208,7 +208,7 @@ const FuturisticContact = () => {
                 </div>
                 <div>
                   <p className="text-sm text-gray-400">Correo</p>
-                  <p className="text-lg font-medium text-blue-400">hola@jmaiconsulting.pe</p>
+                  <p className="text-lg font-medium text-blue-400">contacto@jmaiconsulting.pe</p>
                 </div>
               </a>
               
@@ -218,7 +218,7 @@ const FuturisticContact = () => {
                 </div>
                 <div>
                   <p className="text-sm text-gray-400">Teléfono</p>
-                  <p className="text-lg font-medium text-blue-400">914811842</p>
+                  <p className="text-lg font-medium text-blue-400">+51 914811842</p>
                 </div>
               </a>
             </div>
@@ -299,7 +299,7 @@ const FuturisticContact = () => {
                       onChange={handleChange}
                       onFocus={() => handleFocus('consulta')}
                       onBlur={handleBlur}
-                      placeholder="Escribe tu Consulta"
+                      placeholder="Escribe tu consulta"
                       rows="5"
                       className="w-full px-5 py-4 bg-transparent text-white outline-none resize-none"
                       required
