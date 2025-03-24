@@ -115,42 +115,22 @@ const BPM = () => {
             <div className="mb-6 relative">
               <h1 className="text-6xl md:text-7xl font-black tracking-tight mb-2 text-white">
                 <span className="relative">
-                  <span className="relative z-10">OPTIMIZA</span>
+                  <span className="relative z-10">OPTIMIZA EL RENDIMIENTO DE TU ORGANIZACIÓN </span>
                   <span className="absolute top-0 left-0 w-full h-full bg-gradient-to-r from-cyan-500 to-blue-500 blur-xl opacity-30 animate-pulse"></span>
                 </span>{" "}
                 <span className="bg-clip-text text-transparent bg-gradient-to-r from-cyan-400 to-blue-400">
-                  PROCESOS
+                MEDIANTE LA GESTIÓN DE PROCESOS
                 </span>
               </h1>
               <div className="h-0.5 w-32 mx-auto bg-gradient-to-r from-cyan-400 to-blue-500"></div>
               <h2 className="text-2xl md:text-3xl font-black tracking-tight mt-2 text-white">
                 <span className="relative">
-                  <span className="relative z-10">DE TU ORGANIZACIÓN</span>
                   <span className="absolute top-0 left-0 w-full h-full bg-gradient-to-r from-cyan-500 to-blue-500 blur-xl opacity-30 animate-pulse animation-delay-1000"></span>
                 </span>
               </h2>
             </div>
-            <p className="text-xl md:text-2xl text-cyan-100 mb-10 font-light tracking-wide">
-              Mediante la gestión de procesos (BPM)
-            </p>
             
-            <div className="flex flex-col md:flex-row items-center justify-center gap-6">
-              <a 
-                href="/evaluacion-gratuita" 
-                className="group relative overflow-hidden rounded-full py-4 px-8 bg-transparent border border-cyan-500 text-cyan-400 font-bold"
-              >
-                <span className="relative z-10">Descubre Cómo</span>
-                <span className="absolute inset-0 translate-y-full group-hover:translate-y-0 bg-gradient-to-r from-cyan-500 to-blue-500 transition-transform duration-300 ease-in-out"></span>
-              </a>
-              
-              <a 
-                href="/contacto" 
-                className="group relative overflow-hidden rounded-full py-4 px-8 bg-gradient-to-r from-cyan-500 to-blue-500 text-white font-bold shadow-lg shadow-cyan-500/20"
-              >
-                <span className="relative z-10">Hablemos Ahora</span>
-                <span className="absolute inset-0 translate-y-full group-hover:translate-y-0 bg-gradient-to-r from-blue-600 to-cyan-600 transition-transform duration-300 ease-in-out"></span>
-              </a>
-            </div>
+            
           </div>
         </div>
       </section>
@@ -214,12 +194,7 @@ const BPM = () => {
                     Trabajamos con su equipo para alinear sus procesos de negocio con su estrategia y objetivos organizacionales.
                   </p>
                   
-                  <a href="/servicios/alineamiento" className="mt-6 text-cyan-400 group-hover:text-cyan-300 text-sm font-semibold flex items-center">
-                    Conoce más
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-4 h-4 ml-2 transform group-hover:translate-x-1 transition-transform">
-                      <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75" />
-                    </svg>
-                  </a>
+                  
                 </div>
               </div>
             </div>
@@ -247,12 +222,7 @@ const BPM = () => {
                     Utilizamos notaciones estándar como BPMN 2.0 para crear modelos de procesos claros y comprensibles del estado actual ("as-is") y del estado futuro deseado ("to-be"). Esto incluye la captura de los componentes del proceso.
                   </p>
                   
-                  <a href="/servicios/modelado" className="mt-6 text-blue-400 group-hover:text-blue-300 text-sm font-semibold flex items-center">
-                    Conoce más
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-4 h-4 ml-2 transform group-hover:translate-x-1 transition-transform">
-                      <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75" />
-                    </svg>
-                  </a>
+                
                 </div>
               </div>
             </div>
@@ -280,12 +250,7 @@ const BPM = () => {
                     Realizamos un análisis exhaustivo de sus procesos para identificar cuellos de botella, ineficiencias y oportunidades de mejora.
                   </p>
                   
-                  <a href="/servicios/analisis" className="mt-6 text-purple-400 group-hover:text-purple-300 text-sm font-semibold flex items-center">
-                    Conoce más
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-4 h-4 ml-2 transform group-hover:translate-x-1 transition-transform">
-                      <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75" />
-                    </svg>
-                  </a>
+                
                 </div>
               </div>
             </div>
@@ -312,12 +277,7 @@ const BPM = () => {
                     Basándonos en el análisis, diseñamos procesos optimizados y eficientes, aplicando principios de diseño de procesos. Consideramos diseñar desde afuera hacia adentro iniciando por las interacciones con el cliente y diseñar en torno a actividades que agregan valor.
                   </p>
                   
-                  <a href="/servicios/rediseno" className="mt-6 text-pink-400 group-hover:text-pink-300 text-sm font-semibold flex items-center">
-                    Conoce más
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-4 h-4 ml-2 transform group-hover:translate-x-1 transition-transform">
-                      <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75" />
-                    </svg>
-                  </a>
+                 
                 </div>
               </div>
             </div>
@@ -345,12 +305,7 @@ const BPM = () => {
                     Facilitamos la transformación de sus procesos de negocio, incluyendo la gestión del cambio asociada. Exploramos diversas metodologías de mejora, rediseño y reingeniería.
                   </p>
                   
-                  <a href="/servicios/transformacion" className="mt-6 text-amber-400 group-hover:text-amber-300 text-sm font-semibold flex items-center">
-                    Conoce más
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-4 h-4 ml-2 transform group-hover:translate-x-1 transition-transform">
-                      <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75" />
-                    </svg>
-                  </a>
+                 
                 </div>
               </div>
             </div>
@@ -378,12 +333,7 @@ const BPM = () => {
                     Establecemos métricas clave de rendimiento (KPIs) para medir, monitorear y analizar el desempeño de sus procesos.
                   </p>
                   
-                  <a href="/servicios/medicion" className="mt-6 text-green-400 group-hover:text-green-300 text-sm font-semibold flex items-center">
-                    Conoce más
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-4 h-4 ml-2 transform group-hover:translate-x-1 transition-transform">
-                      <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75" />
-                    </svg>
-                  </a>
+                 
                 </div>
               </div>
             </div>
@@ -418,12 +368,7 @@ const BPM = () => {
                     Le ayudamos en la implementación de los cambios diseñados, incluyendo la selección y uso de software de BPM y la automatización de procesos.
                   </p>
                   
-                  <a href="/servicios/implementacion" className="mt-6 text-teal-400 group-hover:text-teal-300 text-sm font-semibold flex items-center">
-                    Conoce más
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-4 h-4 ml-2 transform group-hover:translate-x-1 transition-transform">
-                      <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75" />
-                    </svg>
-                  </a>
+                  
                 </div>
               </div>
             </div>
@@ -450,13 +395,7 @@ const BPM = () => {
                   <p className="text-gray-300 flex-grow">
                     Apoyamos la gestión del cambio organizacional necesaria para la adopción exitosa de los nuevos procesos.
                   </p>
-                  
-                  <a href="/servicios/gestion-cambio" className="mt-6 text-indigo-400 group-hover:text-indigo-300 text-sm font-semibold flex items-center">
-                    Conoce más
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-4 h-4 ml-2 transform group-hover:translate-x-1 transition-transform">
-                      <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75" />
-                    </svg>
-                  </a>
+                
                 </div>
               </div>
             </div>

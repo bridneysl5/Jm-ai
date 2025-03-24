@@ -113,44 +113,26 @@ const GestionProcesosContent = () => {
         <div className="container mx-auto px-6 relative z-10">
           <div className="max-w-4xl mx-auto text-center">
             <div className="mb-6 relative">
-              <h1 className="text-6xl md:text-7xl font-black tracking-tight mb-2 text-white">
+              <h1 className="text-5xl md:text-6xl font-black tracking-tight mb-2 text-white">
                 <span className="relative">
-                  <span className="relative z-10">OPTIMIZA</span>
+                  <span className="relative z-10">¿BUSCAS OPTIMIZAR TU</span>
                   <span className="absolute top-0 left-0 w-full h-full bg-gradient-to-r from-cyan-500 to-blue-500 blur-xl opacity-30 animate-pulse"></span>
                 </span>{" "}
                 <span className="bg-clip-text text-transparent bg-gradient-to-r from-cyan-400 to-blue-400">
-                  PROCESOS
+                  ORGANIZACIÓN
                 </span>
               </h1>
               <div className="h-0.5 w-32 mx-auto bg-gradient-to-r from-cyan-400 to-blue-500"></div>
               <h2 className="text-5xl md:text-6xl font-black tracking-tight mt-2 text-white">
                 <span className="relative">
-                  <span className="relative z-10">DEL FUTURO</span>
+                  <span className="relative z-10">Y CREAR VALOR PÚBLICO?</span>
                   <span className="absolute top-0 left-0 w-full h-full bg-gradient-to-r from-cyan-500 to-blue-500 blur-xl opacity-30 animate-pulse animation-delay-1000"></span>
                 </span>
               </h2>
             </div>
-            <p className="text-xl md:text-2xl text-cyan-100 mb-10 font-light tracking-wide">
-              Soluciones inteligentes con IA para transformar tus operaciones
-            </p>
             
-            <div className="flex flex-col md:flex-row items-center justify-center gap-6">
-              <a 
-                href="/evaluacion-gratuita" 
-                className="group relative overflow-hidden rounded-full py-4 px-8 bg-transparent border border-cyan-500 text-cyan-400 font-bold"
-              >
-                <span className="relative z-10">Descubre Cómo</span>
-                <span className="absolute inset-0 translate-y-full group-hover:translate-y-0 bg-gradient-to-r from-cyan-500 to-blue-500 transition-transform duration-300 ease-in-out"></span>
-              </a>
-              
-              <a 
-                href="/contacto" 
-                className="group relative overflow-hidden rounded-full py-4 px-8 bg-gradient-to-r from-cyan-500 to-blue-500 text-white font-bold shadow-lg shadow-cyan-500/20"
-              >
-                <span className="relative z-10">Hablemos Ahora</span>
-                <span className="absolute inset-0 translate-y-full group-hover:translate-y-0 bg-gradient-to-r from-blue-600 to-cyan-600 transition-transform duration-300 ease-in-out"></span>
-              </a>
-            </div>
+            
+
           </div>
         </div>
         
@@ -174,13 +156,12 @@ const GestionProcesosContent = () => {
               </div>
               
               <p className="text-lg text-gray-300 mb-6 relative z-10">
-                En <span className="font-bold text-cyan-400">JM AI Consulting</span>, ofrecemos servicios de consultoría en Gestión por Procesos 
-                <span className="font-bold text-cyan-400"> impulsados por IA</span> y diseñados para ayudarte a mejorar la eficiencia y calidad en todas las áreas de tu negocio. 
+                Basándonos en la <span className="font-bold text-cyan-400">Norma Técnica N° 002-2025-PCM-SGP</span>, en 
+                <span className="font-bold text-cyan-400"> JM AI Consulting</span> le ofrecemos una consultoría especializada para implementar una gestión por procesos efectiva que transforme su organización, con la finalidad de que las diferentes unidades de su organización actúen como un ente unificado para generar bienes, servicios y regulaciones de calidad que satisfagan las necesidades y expectativas de las personas, contribuyendo a la creación de valor público.
               </p>
               
               <p className="text-lg text-gray-300 relative z-10">
-                A través de un enfoque estructurado y tecnológicamente avanzado, te ayudamos a identificar, rediseñar y optimizar los procesos
-                clave que impulsan tu organización, <span className="font-bold text-cyan-400">asegurando que estén alineados con el futuro digital</span> y maximicen el valor entregado al cliente.
+                Nuestro enfoque sigue las cuatro fases continuas y permanentes establecidas en la Norma Técnica:
               </p>
             </div>
           </div>
@@ -192,7 +173,7 @@ const GestionProcesosContent = () => {
         
         <div className="container mx-auto px-6 relative z-10">
           <h2 className="text-4xl font-black text-center mb-4 text-white">
-            Nuestros Servicios <span className="bg-clip-text text-transparent bg-gradient-to-r from-cyan-400 to-blue-400">Revolucionarios</span>
+            Nuestras <span className="bg-clip-text text-transparent bg-gradient-to-r from-cyan-400 to-blue-400">Fases Metodológicas</span>
           </h2>
           
           <div className="h-1 w-40 mx-auto bg-gradient-to-r from-cyan-500 to-blue-500 mb-16"></div>
@@ -215,19 +196,13 @@ const GestionProcesosContent = () => {
                     </div>
                   </div>
                   
-                  <h3 className="text-xl font-bold mb-4 text-center text-cyan-400">Mapeo Digital de Procesos</h3>
+                  <h3 className="text-xl font-bold mb-4 text-center text-cyan-400">Fase 1: Identificación de Productos y Procesos</h3>
                   
                   <p className="text-gray-300 flex-grow">
-                    Utilizamos tecnología avanzada para identificar, mapear y digitalizar los procesos clave de tu organización.
-                    Nuestro enfoque basado en IA analiza tus operaciones actuales, identificando automáticamente redundancias e ineficiencias.
+                    Le ayudamos a identificar los productos (bienes, servicios y regulaciones) que su entidad genera en cumplimiento de sus competencias. Determinamos los procesos misionales, estratégicos y de apoyo necesarios y elaboramos la documentación clave incluyendo Ficha de Producto y Proceso, Ficha de Indicador y el Mapa de Procesos Institucional.
                   </p>
                   
-                  <a href="/servicios/mapeo" className="mt-6 text-cyan-400 group-hover:text-cyan-300 text-sm font-semibold flex items-center">
-                    Conoce más
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-4 h-4 ml-2 transform group-hover:translate-x-1 transition-transform">
-                      <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75" />
-                    </svg>
-                  </a>
+
                 </div>
               </div>
             </div>
@@ -249,19 +224,13 @@ const GestionProcesosContent = () => {
                     </div>
                   </div>
                   
-                  <h3 className="text-xl font-bold mb-4 text-center text-blue-400">Rediseño Inteligente</h3>
+                  <h3 className="text-xl font-bold mb-4 text-center text-blue-400">Fase 2: Implementación de los Procesos</h3>
                   
                   <p className="text-gray-300 flex-grow">
-                    Nuestro equipo de especialistas y algoritmos avanzados te ayudan a rediseñar los procesos existentes, 
-                    transformándolos en flujos de trabajo más ágiles, predictivos y orientados a resultados en tiempo real.
+                    Facilitamos la difusión de la documentación de los procesos a todo el personal y grupos de interés. Brindamos asistencia técnica para asegurar la correcta ejecución de los procesos y la comprensión de roles y responsabilidades en toda la organización.
                   </p>
                   
-                  <a href="/servicios/rediseno" className="mt-6 text-blue-400 group-hover:text-blue-300 text-sm font-semibold flex items-center">
-                    Conoce más
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-4 h-4 ml-2 transform group-hover:translate-x-1 transition-transform">
-                      <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75" />
-                    </svg>
-                  </a>
+
                 </div>
               </div>
             </div>
@@ -283,19 +252,13 @@ const GestionProcesosContent = () => {
                     </div>
                   </div>
                   
-                  <h3 className="text-xl font-bold mb-4 text-center text-purple-400">Automatización Futurista</h3>
+                  <h3 className="text-xl font-bold mb-4 text-center text-purple-400">Fase 3: Evaluación de Productos y Procesos</h3>
                   
                   <p className="text-gray-300 flex-grow">
-                    Implementamos soluciones de automatización de última generación impulsadas por IA. Nuestros sistemas 
-                    predictivos identifican y automatizan tareas repetitivas, creando flujos de trabajo autónomos y adaptativos.
+                    Establecemos indicadores de producto y proceso para medir su desempeño y el cumplimiento de atributos de calidad. Le guiamos en la medición y análisis de los resultados para identificar oportunidades de mejora continua en sus servicios públicos.
                   </p>
                   
-                  <a href="/servicios/automatizacion" className="mt-6 text-purple-400 group-hover:text-purple-300 text-sm font-semibold flex items-center">
-                    Conoce más
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-4 h-4 ml-2 transform group-hover:translate-x-1 transition-transform">
-                      <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75" />
-                    </svg>
-                  </a>
+
                 </div>
               </div>
             </div>
@@ -317,56 +280,18 @@ const GestionProcesosContent = () => {
                     </div>
                   </div>
                   
-                  <h3 className="text-xl font-bold mb-4 text-center text-pink-400">Monitoreo Predictivo</h3>
+                  <h3 className="text-xl font-bold mb-4 text-center text-pink-400">Fase 4: Mejora de Productos y Procesos</h3>
                   
                   <p className="text-gray-300 flex-grow">
-                    Implementamos dashboards holográficos para visualización de datos en tiempo real. Nuestros algoritmos 
-                    de aprendizaje automático predicen tendencias y anticipan problemas antes de que ocurran.
+                    Colaboramos en la identificación y priorización de oportunidades de mejora basadas en la evaluación. Apoyamos en la determinación e implementación de mejoras en sus productos y procesos, y le asesoramos en la actualización de la documentación correspondiente.
                   </p>
                   
-                  <a href="/servicios/monitoreo" className="mt-6 text-pink-400 group-hover:text-pink-300 text-sm font-semibold flex items-center">
-                    Conoce más
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-4 h-4 ml-2 transform group-hover:translate-x-1 transition-transform">
-                      <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75" />
-                    </svg>
-                  </a>
+                  
                 </div>
               </div>
             </div>
             
-            {/* Service Card 5 */}
-            <div className="group h-96 md:col-span-2 lg:col-span-1">
-              <div className="relative h-full rounded-2xl bg-gradient-to-br from-gray-900 to-gray-950 p-1 transition-all duration-500 hover:scale-[1.03] hover:shadow-xl hover:shadow-amber-500/10">
-                <div className="absolute inset-0 rounded-2xl overflow-hidden">
-                  <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_0%,rgba(251,191,36,0.1),transparent_70%)]"></div>
-                  <div className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-amber-500 to-transparent group-hover:animate-shimmer"></div>
-                </div>
-                
-                <div className="relative h-full flex flex-col p-6 rounded-xl bg-gray-900/90 backdrop-blur-sm">
-                  <div className="flex justify-center mb-6">
-                    <div className="flex items-center justify-center w-16 h-16 rounded-full bg-gradient-to-br from-amber-500 to-yellow-500 shadow-lg shadow-amber-500/20">
-                      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-8 h-8 text-white">
-                        <path strokeLinecap="round" strokeLinejoin="round" d="M4.26 10.147a60.438 60.438 0 0 0-.491 6.347A48.62 48.62 0 0 1 12 20.904a48.62 48.62 0 0 1 8.232-4.41 60.46 60.46 0 0 0-.491-6.347m-15.482 0a50.636 50.636 0 0 0-2.658-.813A59.906 59.906 0 0 1 12 3.493a59.903 59.903 0 0 1 10.399 5.84c-.896.248-1.783.52-2.658.814m-15.482 0A50.717 50.717 0 0 1 12 13.489a50.702 50.702 0 0 1 7.74-3.342M6.75 15a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5Zm0 0v-3.675A55.378 55.378 0 0 1 12 8.443m-7.007 11.55A5.981 5.981 0 0 0 6.75 15.75v-1.5" />
-                      </svg>
-                    </div>
-                  </div>
-                  
-                  <h3 className="text-xl font-bold mb-4 text-center text-amber-400">Capacitación Inmersiva</h3>
-                  
-                  <p className="text-gray-300 flex-grow">
-                    Formamos a tu equipo con programas de capacitación que utilizan realidad aumentada y tecnologías inmersivas.
-                    Creamos experiencias de aprendizaje que aseguran que tu equipo domine las herramientas y metodologías del futuro digital.
-                  </p>
-                  
-                  <a href="/servicios/capacitacion" className="mt-6 text-amber-400 group-hover:text-amber-300 text-sm font-semibold flex items-center">
-                    Conoce más
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-4 h-4 ml-2 transform group-hover:translate-x-1 transition-transform">
-                      <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75" />
-                    </svg>
-                  </a>
-                </div>
-              </div>
-            </div>
+           
           </div>
         </div>
       </section>
@@ -396,38 +321,29 @@ const GestionProcesosContent = () => {
               
               <div className="text-center">
                 <h2 className="text-4xl md:text-5xl font-black mb-6 text-white">
-                  ¿Listo para el <span className="bg-clip-text text-transparent bg-gradient-to-r from-cyan-400 to-blue-400">Futuro Digital</span>?
+                  ¿Listo para iniciar el <span className="bg-clip-text text-transparent bg-gradient-to-r from-cyan-400 to-blue-400">Valor Público</span>?
                 </h2>
                 
                 <div className="h-1 w-32 mx-auto bg-gradient-to-r from-cyan-500 to-blue-500 mb-8"></div>
                 
                 <p className="text-xl text-gray-300 mb-10">
-                  Descubre cómo nuestra consultoría en Gestión por Procesos con IA puede transformar radicalmente
-                  la productividad de tu negocio, reducir costos y posicionarte a la vanguardia tecnológica
+                  Descubra cómo nuestra consultoría se enfoca en brindarle un acompañamiento integral, 
+                  asegurando la correcta aplicación de los principios y lineamientos de la Norma Técnica N° 002-2025-PCM-SGP 
+                  para una gestión más eficiente y orientada al valor público
                 </p>
                 
                 <div className="flex flex-col sm:flex-row items-center justify-center gap-6">
                   <a 
-                    href="/evaluacion-gratuita" 
+                    href="/contactanos" 
                     className="group w-full sm:w-auto relative overflow-hidden rounded-full py-4 px-8 bg-gradient-to-r from-cyan-500 to-blue-500 text-white font-bold shadow-lg shadow-cyan-500/20 hover:shadow-cyan-500/40 transform transition-all duration-300 hover:-translate-y-1"
                   >
                     <span className="relative z-10 flex items-center justify-center">
-                      <span>¡Comienza Ahora!</span>
+                      <span>Contáctanos</span>
                       <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor" className="w-5 h-5 ml-2 transform group-hover:translate-x-1 transition-transform">
                         <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
                       </svg>
                     </span>
                     <span className="absolute inset-0 bg-gradient-to-r from-blue-600 to-cyan-600 translate-y-full group-hover:translate-y-0 transition-transform duration-300 ease-in-out"></span>
-                  </a>
-                  
-                  <a 
-                    href="/demo-virtual" 
-                    className="group w-full sm:w-auto relative overflow-hidden rounded-full py-4 px-8 bg-transparent border border-cyan-500 text-cyan-400 font-bold"
-                  >
-                    <span className="relative z-10 flex items-center justify-center">
-                      <span>Demo Virtual</span>
-                    </span>
-                    <span className="absolute inset-0 translate-y-full group-hover:translate-y-0 bg-gradient-to-r from-cyan-500/20 to-blue-500/20 transition-transform duration-300 ease-in-out"></span>
                   </a>
                 </div>
               </div>

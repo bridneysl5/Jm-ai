@@ -130,27 +130,9 @@ const GestionRiesgosContent = () => {
                 </span>
               </h2>
             </div>
-            <p className="text-xl md:text-2xl text-cyan-100 mb-10 font-light tracking-wide">
-              Soluciones avanzadas para identificar, evaluar y aprovechar riesgos y oportunidades
-            </p>
+          
             
-            <div className="flex flex-col md:flex-row items-center justify-center gap-6">
-              <a 
-                href="/evaluacion-gratuita" 
-                className="group relative overflow-hidden rounded-full py-4 px-8 bg-transparent border border-cyan-500 text-cyan-400 font-bold"
-              >
-                <span className="relative z-10">Evaluación de Riesgos</span>
-                <span className="absolute inset-0 translate-y-full group-hover:translate-y-0 bg-gradient-to-r from-cyan-500 to-blue-500 transition-transform duration-300 ease-in-out"></span>
-              </a>
-              
-              <a 
-                href="/contacto" 
-                className="group relative overflow-hidden rounded-full py-4 px-8 bg-gradient-to-r from-cyan-500 to-blue-500 text-white font-bold shadow-lg shadow-cyan-500/20"
-              >
-                <span className="relative z-10">Contáctanos Ahora</span>
-                <span className="absolute inset-0 translate-y-full group-hover:translate-y-0 bg-gradient-to-r from-blue-600 to-cyan-600 transition-transform duration-300 ease-in-out"></span>
-              </a>
-            </div>
+           
           </div>
         </div>
         
@@ -181,7 +163,7 @@ const GestionRiesgosContent = () => {
               <p className="text-lg text-gray-300 relative z-10">
                 Nuestro enfoque no solo busca mitigar amenazas, sino también 
                 <span className="font-bold text-cyan-400"> capitalizar oportunidades</span> que puedan impulsar el crecimiento y la innovación.
-                Acompañamos a tu equipo en cada paso del proceso, desde la identificación hasta el tratamiento y reevaluación.
+                Acompañamos a tu equipo en cada paso del proceso, desde la identificación hasta el tratamiento y reevaluación de los riesgos residuales. Además, te asistimos en la elaboración de un procedimiento formal para la gestión de riesgos y ofrecemos capacitación para fortalecer las competencias de tu equipo.
               </p>
             </div>
           </div>
@@ -219,16 +201,10 @@ const GestionRiesgosContent = () => {
                   <h3 className="text-xl font-bold mb-4 text-center text-cyan-400">Identificación de Riesgos y Oportunidades</h3>
                   
                   <p className="text-gray-300 flex-grow">
-                    Te apoyamos en la identificación tanto de riesgos (amenazas) como de oportunidades (riesgos positivos) 
-                    que podrían influir en el logro de tus objetivos, asegurando una visión integral y completa.
+                  Te apoyamos en la identificación tanto de riesgos (amenazas) como de oportunidades (riesgos positivos) que podrían influir en el logro de tus objetivos. Esta etapa abarca tanto los riesgos que podrían afectar negativamente a tu organización, como las oportunidades que, si se gestionan adecuadamente, pueden convertirse en ventajas competitivas o mejoras significativas para tu negocio
                   </p>
                   
-                  <a href="/servicios/identificacion" className="mt-6 text-cyan-400 group-hover:text-cyan-300 text-sm font-semibold flex items-center">
-                    Conoce más
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-4 h-4 ml-2 transform group-hover:translate-x-1 transition-transform">
-                      <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75" />
-                    </svg>
-                  </a>
+                 
                 </div>
               </div>
             </div>
@@ -250,20 +226,13 @@ const GestionRiesgosContent = () => {
                     </div>
                   </div>
                   
-                  <h3 className="text-xl font-bold mb-4 text-center text-blue-400">Evaluación y Priorización</h3>
+                  <h3 className="text-xl font-bold mb-4 text-center text-blue-400">Evaluación y Priorización de Riesgos y Oportunidade</h3>
                   
                   <p className="text-gray-300 flex-grow">
-                    Evaluamos los riesgos identificados en términos de probabilidad e impacto, priorizando
-                    aquellos que representan las mayores amenazas o, en el caso de las oportunidades,
-                    los que tienen el mayor potencial de generar valor.
+                  Evaluamos los riesgos identificados en términos de probabilidad e impacto, priorizando aquellos que representan las mayores amenazas o, en el caso de las oportunidades, los que tienen el mayor potencial de generar valor. Te ayudamos a clasificar los riesgos y oportunidades para que puedas enfocar tus recursos en las áreas más críticas y con mayor potencial de retorno.
                   </p>
                   
-                  <a href="/servicios/evaluacion" className="mt-6 text-blue-400 group-hover:text-blue-300 text-sm font-semibold flex items-center">
-                    Conoce más
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-4 h-4 ml-2 transform group-hover:translate-x-1 transition-transform">
-                      <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75" />
-                    </svg>
-                  </a>
+                
                 </div>
               </div>
             </div>
@@ -288,17 +257,10 @@ const GestionRiesgosContent = () => {
                   <h3 className="text-xl font-bold mb-4 text-center text-purple-400">Tratamiento de Riesgos y Oportunidades</h3>
                   
                   <p className="text-gray-300 flex-grow">
-                    Desarrollamos contigo estrategias para mitigar o gestionar los riesgos y capitalizar las 
-                    oportunidades, implementando medidas específicas para cada caso y maximizando el 
-                    impacto positivo.
+                  Desarrollamos contigo estrategias para mitigar o gestionar los riesgos y capitalizar las oportunidades. En el caso de los riesgos, te ayudamos a implementar medidas para evitar, mitigar, transferir o aceptar dichos riesgos. En cuanto a las oportunidades, trabajamos contigo en planes que permitan maximizar el impacto positivo de las mismas, asegurando que tu organización esté preparada para aprovecharlas
                   </p>
                   
-                  <a href="/servicios/tratamiento" className="mt-6 text-purple-400 group-hover:text-purple-300 text-sm font-semibold flex items-center">
-                    Conoce más
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-4 h-4 ml-2 transform group-hover:translate-x-1 transition-transform">
-                      <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75" />
-                    </svg>
-                  </a>
+                 
                 </div>
               </div>
             </div>
@@ -320,20 +282,13 @@ const GestionRiesgosContent = () => {
                     </div>
                   </div>
                   
-                  <h3 className="text-xl font-bold mb-4 text-center text-pink-400">Reevaluación de Riesgos Residuales</h3>
+                  <h3 className="text-xl font-bold mb-4 text-center text-pink-400">Reevaluación de Riesgos y Oportunidades Residuales</h3>
                   
                   <p className="text-gray-300 flex-grow">
-                    El proceso de gestión de riesgos y oportunidades es continuo. Te apoyamos en la reevaluación
-                    periódica tanto de los riesgos como de las oportunidades residuales, asegurando
-                    adaptabilidad ante circunstancias cambiantes.
+                  El proceso de gestión de riesgos y oportunidades es continuo. Te apoyamos en la reevaluación periódica tanto de los riesgos residuales—los que permanecen tras el tratamiento—como de las oportunidades residuales. Esto asegura que las amenazas y oportunidades se mantengan dentro de límites aceptables y que tu organización pueda adaptarse a las circunstancias cambiantes.
                   </p>
                   
-                  <a href="/servicios/reevaluacion" className="mt-6 text-pink-400 group-hover:text-pink-300 text-sm font-semibold flex items-center">
-                    Conoce más
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-4 h-4 ml-2 transform group-hover:translate-x-1 transition-transform">
-                      <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75" />
-                    </svg>
-                  </a>
+                 
                 </div>
               </div>
             </div>
@@ -355,25 +310,46 @@ const GestionRiesgosContent = () => {
                     </div>
                   </div>
                   
+                  <h3 className="text-xl font-bold mb-4 text-center text-amber-400">Elaboración de Procedimientos de Gestión de Riesgos y Oportunidades</h3>
+                  
+                  <p className="text-gray-300 flex-grow">
+                  Te ayudamos a desarrollar un procedimiento formal para la gestión de riesgos y oportunidades, que estandarice y estructure todo el proceso dentro de tu organización. Este procedimiento incluye pasos claros para identificar, evaluar, tratar y monitorear tanto riesgos como oportunidades, asegurando que tu organización pueda gestionar ambos de manera continua y efectiva.
+                  </p>
+                  
+                 
+                </div>
+              </div>
+            </div>
+            {/* Service Card 5 */}
+            <div className="group h-96 md:col-span-2 lg:col-span-1">
+              <div className="relative h-full rounded-2xl bg-gradient-to-br from-gray-900 to-gray-950 p-1 transition-all duration-500 hover:scale-[1.03] hover:shadow-xl hover:shadow-amber-500/10">
+                <div className="absolute inset-0 rounded-2xl overflow-hidden">
+                  <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_0%,rgba(251,191,36,0.1),transparent_70%)]"></div>
+                  <div className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-amber-500 to-transparent group-hover:animate-shimmer"></div>
+                </div>
+                
+                <div className="relative h-full flex flex-col p-6 rounded-xl bg-gray-900/90 backdrop-blur-sm">
+                  <div className="flex justify-center mb-6">
+                    <div className="flex items-center justify-center w-16 h-16 rounded-full bg-gradient-to-br from-amber-500 to-yellow-500 shadow-lg shadow-amber-500/20">
+                      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-8 h-8 text-white">
+                        <path strokeLinecap="round" strokeLinejoin="round" d="M4.26 10.147a60.438 60.438 0 0 0-.491 6.347A48.62 48.62 0 0 1 12 20.904a48.62 48.62 0 0 1 8.232-4.41 60.46 60.46 0 0 0-.491-6.347m-15.482 0a50.636 50.636 0 0 0-2.658-.813A59.906 59.906 0 0 1 12 3.493a59.903 59.903 0 0 1 10.399 5.84c-.896.248-1.783.52-2.658.814m-15.482 0A50.717 50.717 0 0 1 12 13.489a50.702 50.702 0 0 1 7.74-3.342M6.75 15a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5Zm0 0v-3.675A55.378 55.378 0 0 1 12 8.443m-7.007 11.55A5.981 5.981 0 0 0 6.75 15.75v-1.5" />
+                      </svg>
+                    </div>
+                  </div>
+                  
                   <h3 className="text-xl font-bold mb-4 text-center text-amber-400">Capacitación y Desarrollo de Competencias</h3>
                   
                   <p className="text-gray-300 flex-grow">
-                    Fortalecemos las competencias de tu equipo a través de programas de capacitación especializados
-                    para que puedan identificar, evaluar y gestionar tanto los riesgos como las oportunidades
-                    de manera eficiente y proactiva.
+                  Fortalecemos las competencias de tu equipo a través de programas de capacitación especializados. Estos programas están diseñados para que los empleados puedan identificar, evaluar y gestionar tanto los riesgos como las oportunidades de manera eficiente, promoviendo una cultura organizacional proactiva y orientada al aprovechamiento de las oportunidades.
                   </p>
                   
-                  <a href="/servicios/capacitacion" className="mt-6 text-amber-400 group-hover:text-amber-300 text-sm font-semibold flex items-center">
-                    Conoce más
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-4 h-4 ml-2 transform group-hover:translate-x-1 transition-transform">
-                      <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75" />
-                    </svg>
-                  </a>
+                 
                 </div>
               </div>
             </div>
           </div>
         </div>
+        
       </section>
       {/* CTA Section */}
       <section className="py-24 relative overflow-hidden bg-gray-950">

@@ -116,42 +116,24 @@ const TransformacionDigitalContent = () => {
             <div className="mb-6 relative">
               <h1 className="text-6xl md:text-7xl font-black tracking-tight mb-2 text-white">
                 <span className="relative">
-                  <span className="relative z-10">TRANSFORMACIÓN</span>
+                  <span className="relative z-10">Transforma tus datos</span>
                   <span className="absolute top-0 left-0 w-full h-full bg-gradient-to-r from-cyan-500 to-blue-500 blur-xl opacity-30 animate-pulse"></span>
                 </span>{" "}
                 <span className="bg-clip-text text-transparent bg-gradient-to-r from-cyan-400 to-blue-400">
-                  DIGITAL
+                en información accionable
                 </span>
               </h1>
               <div className="h-0.5 w-32 mx-auto bg-gradient-to-r from-cyan-400 to-blue-500"></div>
               <h2 className="text-5xl md:text-6xl font-black tracking-tight mt-2 text-white">
                 <span className="relative">
-                  <span className="relative z-10">IMPULSA TU NEGOCIO</span>
+                  <span className="relative z-10">y mejora la toma de decisiones</span>
                   <span className="absolute top-0 left-0 w-full h-full bg-gradient-to-r from-cyan-500 to-blue-500 blur-xl opacity-30 animate-pulse animation-delay-1000"></span>
                 </span>
               </h2>
             </div>
-            <p className="text-xl md:text-2xl text-cyan-100 mb-10 font-light tracking-wide">
-              Te ayudamos a integrar la tecnología con tus operaciones para aumentar tu competitividad
-            </p>
+          
             
-            <div className="flex flex-col md:flex-row items-center justify-center gap-6">
-              <a 
-                href="/evaluacion-digital" 
-                className="group relative overflow-hidden rounded-full py-4 px-8 bg-transparent border border-cyan-500 text-cyan-400 font-bold"
-              >
-                <span className="relative z-10">Evaluación Digital Gratuita</span>
-                <span className="absolute inset-0 translate-y-full group-hover:translate-y-0 bg-gradient-to-r from-cyan-500 to-blue-500 transition-transform duration-300 ease-in-out"></span>
-              </a>
-              
-              <a 
-                href="/contacto" 
-                className="group relative overflow-hidden rounded-full py-4 px-8 bg-gradient-to-r from-cyan-500 to-blue-500 text-white font-bold shadow-lg shadow-cyan-500/20"
-              >
-                <span className="relative z-10">Contáctanos Ahora</span>
-                <span className="absolute inset-0 translate-y-full group-hover:translate-y-0 bg-gradient-to-r from-blue-600 to-cyan-600 transition-transform duration-300 ease-in-out"></span>
-              </a>
-            </div>
+            
           </div>
         </div>
         
@@ -174,14 +156,13 @@ const TransformacionDigitalContent = () => {
               </div>
               
               <p className="text-lg text-gray-300 mb-6 relative z-10">
-                En <span className="font-bold text-cyan-400">JM AI Consulting</span>, impulsamos el crecimiento de tu empresa mediante la 
-                <span className="font-bold text-cyan-400"> transformación digital</span> de tus procesos, sistemas y cultura organizacional.
+                En <span className="font-bold text-cyan-400">JM AI Consulting</span>, te ofrecemos un servicio de consultoría integral en transformación digital, diseñado para guiar a tu organización, ya sea privada o pública ,
+                <span className="font-bold text-cyan-400">  a maximizar las oportunidades</span> del mundo digital. Entendemos que la
               </p>
               
               <p className="text-lg text-gray-300 relative z-10">
-                Nuestro objetivo es ayudarte a navegar con éxito en el panorama digital actual, 
-                <span className="font-bold text-cyan-400"> optimizando operaciones</span> y generando nuevas fuentes de valor para tu negocio.
-                Te acompañamos en cada fase de la transformación, desde la estrategia hasta la implementación y la medición de resultados.
+              transformación digital es un proceso continuo,
+                <span className="font-bold text-cyan-400">  disruptivo y estratégico de cambio organizativo y cultural,</span>  que se sustenta en el uso intensivo de tecnologías digitales y el análisis de datos para generar valor.
               </p>
             </div>
           </div>
@@ -217,19 +198,14 @@ const TransformacionDigitalContent = () => {
                     </div>
                   </div>
                   
-                  <h3 className="text-xl font-bold mb-4 text-center text-cyan-400">Estrategia Digital</h3>
+                  <h3 className="text-xl font-bold mb-4 text-center text-cyan-400">Diagnóstico y Evaluación Inicial</h3>
                   
                   <p className="text-gray-300 flex-grow">
-                    Desarrollamos un plan digital integral alineado con tus objetivos de negocio. Identificamos oportunidades
-                    de mejora y definimos la ruta para implementar tecnologías que generen valor real y sostenible.
+                  Análisis de la situación actual y principales desafíos.
+                  Identificación de oportunidades en relación con la estrategia organizacional y las directrices nacionales de transformación digital.
                   </p>
                   
-                  <a href="/servicios/estrategia-digital" className="mt-6 text-cyan-400 group-hover:text-cyan-300 text-sm font-semibold flex items-center">
-                    Conoce más
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-4 h-4 ml-2 transform group-hover:translate-x-1 transition-transform">
-                      <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75" />
-                    </svg>
-                  </a>
+                 
                 </div>
               </div>
             </div>
@@ -251,20 +227,14 @@ const TransformacionDigitalContent = () => {
                     </div>
                   </div>
                   
-                  <h3 className="text-xl font-bold mb-4 text-center text-blue-400">Automatización de Procesos</h3>
+                  <h3 className="text-xl font-bold mb-4 text-center text-blue-400">Definición de la Visión y Estrategia Digital</h3>
                   
                   <p className="text-gray-300 flex-grow">
-                    Identificamos y automatizamos procesos manuales repetitivos para liberar el potencial de tu equipo. 
-                    Implementamos RPA (Robotic Process Automation) y workflows inteligentes que aumentan la eficiencia 
-                    y reducen errores.
+                  Colaboramos para establecer objetivos claros y metas SMART.
+                  Diseñamos una estrategia integral que potencie la innovación y garantice un impacto medible.
                   </p>
                   
-                  <a href="/servicios/automatizacion" className="mt-6 text-blue-400 group-hover:text-blue-300 text-sm font-semibold flex items-center">
-                    Conoce más
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-4 h-4 ml-2 transform group-hover:translate-x-1 transition-transform">
-                      <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75" />
-                    </svg>
-                  </a>
+                
                 </div>
               </div>
             </div>
@@ -285,20 +255,14 @@ const TransformacionDigitalContent = () => {
                     </div>
                   </div>
                   
-                  <h3 className="text-xl font-bold mb-4 text-center text-sky-400">Análisis de Datos e IA</h3>
+                  <h3 className="text-xl font-bold mb-4 text-center text-sky-400">Diseño y Planificación de la Implementació</h3>
                   
                   <p className="text-gray-300 flex-grow">
-                    Convertimos tus datos en información accionable. Implementamos soluciones de Business Intelligence,
-                    análisis predictivo e Inteligencia Artificial para optimizar decisiones y descubrir patrones ocultos
-                    que impulsen tu negocio.
+                  Seleccionamos las tecnologías adecuadas (Big Data, IA, etc.).
+                  Elaboramos un plan de implementación y adopción con metodologías ágiles
                   </p>
                   
-                  <a href="/servicios/analisis-datos" className="mt-6 text-sky-400 group-hover:text-sky-300 text-sm font-semibold flex items-center">
-                    Conoce más
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-4 h-4 ml-2 transform group-hover:translate-x-1 transition-transform">
-                      <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75" />
-                    </svg>
-                  </a>
+                  
                 </div>
               </div>
             </div>
@@ -320,20 +284,14 @@ const TransformacionDigitalContent = () => {
                     </div>
                   </div>
                   
-                  <h3 className="text-xl font-bold mb-4 text-center text-blue-400">Desarrollo de Software</h3>
+                  <h3 className="text-xl font-bold mb-4 text-center text-blue-400">Implementación y Ejecución</h3>
                   
                   <p className="text-gray-300 flex-grow">
-                    Creamos soluciones de software personalizadas que resuelven problemas específicos de tu negocio. 
-                    Desde aplicaciones web y móviles hasta sistemas a medida, nuestros desarrollos optimizan procesos y
-                    mejoran la experiencia de usuarios y clientes.
+                  Desplegamos soluciones digitales, gestionamos el cambio y capacitamos al talento.
+                  Fomentamos la participación ciudadana o de usuarios en la mejora de procesos.
                   </p>
                   
-                  <a href="/servicios/desarrollo-software" className="mt-6 text-blue-400 group-hover:text-blue-300 text-sm font-semibold flex items-center">
-                    Conoce más
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-4 h-4 ml-2 transform group-hover:translate-x-1 transition-transform">
-                      <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75" />
-                    </svg>
-                  </a>
+                 
                 </div>
               </div>
             </div>
@@ -355,20 +313,13 @@ const TransformacionDigitalContent = () => {
                     </div>
                   </div>
                   
-                  <h3 className="text-xl font-bold mb-4 text-center text-blue-400">Ciberseguridad</h3>
+                  <h3 className="text-xl font-bold mb-4 text-center text-blue-400">Monitoreo y Optimización Continua</h3>
                   
                   <p className="text-gray-300 flex-grow">
-                    Protegemos tu infraestructura digital y datos sensibles con estrategias de seguridad preventivas.
-                    Realizamos auditorías, implementamos controles de acceso, y desarrollamos protocolos de respuesta ante
-                    incidentes para garantizar la continuidad de tu negocio.
+                  Seguimiento de KPIs, retroalimentación y ajustes estratégicos.
                   </p>
                   
-                  <a href="/servicios/ciberseguridad" className="mt-6 text-blue-400 group-hover:text-blue-300 text-sm font-semibold flex items-center">
-                    Conoce más
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-4 h-4 ml-2 transform group-hover:translate-x-1 transition-transform">
-                      <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75" />
-                    </svg>
-                  </a>
+                  
                 </div>
               </div>
             </div>
@@ -401,39 +352,29 @@ const TransformacionDigitalContent = () => {
               
               <div className="text-center">
                 <h2 className="text-4xl md:text-5xl font-black mb-6 text-white">
-                  ¿Listo para <span className="bg-clip-text text-transparent bg-gradient-to-r from-cyan-400 to-blue-400">Transformar</span> tu Negocio?
+                ¿Estás listo para iniciar tu viaje hacia la <span className="bg-clip-text text-transparent bg-gradient-to-r from-cyan-400 to-blue-400">transformación digita</span> con JM AI Consulting
                 </h2>
                 
                 <div className="h-1 w-32 mx-auto bg-gradient-to-r from-cyan-500 to-blue-500 mb-8"></div>
                 
                 <p className="text-xl text-gray-300 mb-10">
-                  Contáctanos hoy y descubre cómo la transformación digital puede potenciar
-                  tus operaciones, reducir costos y generar nuevas oportunidades de crecimiento
+                Nuestras propuestas abarcan tanto organizaciones privadas como instituciones públicas, impulsando la competitividad, la transparencia y la eficiencia.
                 </p>
                 
                 <div className="flex flex-col sm:flex-row items-center justify-center gap-6">
                   <a 
-                    href="/evaluacion-digital" 
+                    href="/contacto" 
                     className="group w-full sm:w-auto relative overflow-hidden rounded-full py-4 px-8 bg-gradient-to-r from-cyan-500 to-blue-500 text-white font-bold shadow-lg shadow-cyan-500/20 hover:shadow-cyan-500/40 transform transition-all duration-300 hover:-translate-y-1"
                   >
                     <span className="relative z-10 flex items-center justify-center">
-                      <span>¡Diagnóstico Digital Gratuito!</span>
+                      <span>Contáctanos Ahora</span>
                       <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor" className="w-5 h-5 ml-2 transform group-hover:translate-x-1 transition-transform">
                         <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
                       </svg>
                     </span>
                     <span className="absolute inset-0 bg-gradient-to-r from-blue-600 to-cyan-600 translate-y-full group-hover:translate-y-0 transition-transform duration-300 ease-in-out"></span>
                   </a>
-                  
-                  <a 
-                    href="/casos-exito" 
-                    className="group w-full sm:w-auto relative overflow-hidden rounded-full py-4 px-8 bg-transparent border border-cyan-500 text-cyan-400 font-bold"
-                  >
-                    <span className="relative z-10 flex items-center justify-center">
-                      <span>Ver Casos de Éxito</span>
-                    </span>
-                    <span className="absolute inset-0 translate-y-full group-hover:translate-y-0 bg-gradient-to-r from-cyan-500/20 to-blue-500/20 transition-transform duration-300 ease-in-out"></span>
-                  </a>
+                 
                 </div>
               </div>
             </div>

@@ -1,6 +1,5 @@
 import React, { useEffect, useRef } from 'react';
 
-// Componente principal de Data Analytics
 const DataAnalyticsContent = () => {
   const canvasRef = useRef(null);
 
@@ -117,41 +116,17 @@ const DataAnalyticsContent = () => {
             <div className="mb-6 relative">
               <h1 className="text-6xl md:text-7xl font-black tracking-tight mb-2 text-white">
                 <span className="relative">
-                  <span className="relative z-10">TRANSFORMA</span>
+                  <span className="relative z-10">¡Impulsa tu Organización hacia el</span>
                   <span className="absolute top-0 left-0 w-full h-full bg-gradient-to-r from-cyan-500 to-blue-500 blur-xl opacity-30 animate-pulse"></span>
-                </span>{" "}
-                <span className="bg-clip-text text-transparent bg-gradient-to-r from-cyan-400 to-blue-400">
-                  TUS DATOS
                 </span>
               </h1>
               <div className="h-0.5 w-32 mx-auto bg-gradient-to-r from-cyan-400 to-blue-500"></div>
               <h2 className="text-5xl md:text-6xl font-black tracking-tight mt-2 text-white">
                 <span className="relative">
-                  <span className="relative z-10">EN INFORMACIÓN ACCIONABLE</span>
+                  <span className="relative z-10">Futuro Digital con JM AI Consulting!</span>
                   <span className="absolute top-0 left-0 w-full h-full bg-gradient-to-r from-cyan-500 to-blue-500 blur-xl opacity-30 animate-pulse animation-delay-1000"></span>
                 </span>
               </h2>
-            </div>
-            <p className="text-xl md:text-2xl text-cyan-100 mb-10 font-light tracking-wide">
-              Soluciones analíticas avanzadas para impulsar decisiones inteligentes
-            </p>
-            
-            <div className="flex flex-col md:flex-row items-center justify-center gap-6">
-              <a 
-                href="/evaluacion-gratuita" 
-                className="group relative overflow-hidden rounded-full py-4 px-8 bg-transparent border border-cyan-500 text-cyan-400 font-bold"
-              >
-                <span className="relative z-10">Descubre el Potencial</span>
-                <span className="absolute inset-0 translate-y-full group-hover:translate-y-0 bg-gradient-to-r from-cyan-500 to-blue-500 transition-transform duration-300 ease-in-out"></span>
-              </a>
-              
-              <a 
-                href="/contacto" 
-                className="group relative overflow-hidden rounded-full py-4 px-8 bg-gradient-to-r from-cyan-500 to-blue-500 text-white font-bold shadow-lg shadow-cyan-500/20"
-              >
-                <span className="relative z-10">Solicita una Consulta</span>
-                <span className="absolute inset-0 translate-y-full group-hover:translate-y-0 bg-gradient-to-r from-blue-600 to-cyan-600 transition-transform duration-300 ease-in-out"></span>
-              </a>
             </div>
           </div>
         </div>
@@ -161,6 +136,7 @@ const DataAnalyticsContent = () => {
         <div className="absolute top-20 -right-20 w-80 h-80 rounded-full border-2 border-blue-500/20 animate-reverse-spin-slow"></div>
         <div className="absolute bottom-1/4 right-1/4 w-40 h-40 border border-cyan-400/30 transform rotate-45 animate-pulse"></div>
       </section>
+      
       {/* Sección de Introducción con Tarjeta Holográfica */}
       <section className="py-20 bg-gradient-to-b from-gray-950 to-black">
         <div className="container mx-auto px-6">
@@ -182,8 +158,7 @@ const DataAnalyticsContent = () => {
               
               <p className="text-lg text-gray-300 relative z-10">
                 Ya sea que necesites analizar grandes volúmenes de datos, identificar patrones ocultos o crear visualizaciones interactivas, 
-                estamos aquí para acompañarte en cada paso del proceso, <span className="font-bold text-cyan-400">transformando tus datos en decisiones estratégicas</span> 
-                que potencian tu ventaja competitiva.
+                estamos aquí para acompañarte en cada paso del proceso.
               </p>
             </div>
           </div>
@@ -195,49 +170,8 @@ const DataAnalyticsContent = () => {
         <div className="absolute inset-0 bg-grid-pattern opacity-5"></div>
         
         <div className="container mx-auto px-6 relative z-10">
-          <h2 className="text-4xl font-black text-center mb-4 text-white">
-            Nuestros Servicios <span className="bg-clip-text text-transparent bg-gradient-to-r from-cyan-400 to-blue-400">Analíticos</span>
-          </h2>
-          
-          <div className="h-1 w-40 mx-auto bg-gradient-to-r from-cyan-500 to-blue-500 mb-16"></div>
-          
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
-            {/* Servicio 1: Visualización de Datos */}
-            <div className="group h-96">
-              <div className="relative h-full rounded-2xl bg-gradient-to-br from-gray-900 to-gray-950 p-1 transition-all duration-500 hover:scale-[1.03] hover:shadow-xl hover:shadow-cyan-500/10">
-                <div className="absolute inset-0 rounded-2xl overflow-hidden">
-                  <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_0%,rgba(0,200,255,0.1),transparent_70%)]"></div>
-                  <div className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-cyan-500 to-transparent group-hover:animate-shimmer"></div>
-                </div>
-                
-                <div className="relative h-full flex flex-col p-6 rounded-xl bg-gray-900/90 backdrop-blur-sm">
-                  <div className="flex justify-center mb-6">
-                    <div className="flex items-center justify-center w-16 h-16 rounded-full bg-gradient-to-br from-cyan-500 to-blue-500 shadow-lg shadow-cyan-500/20">
-                      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-8 h-8 text-white">
-                        <path strokeLinecap="round" strokeLinejoin="round" d="M7.5 14.25v2.25m3-4.5v4.5m3-6.75v6.75m3-9v9M6 20.25h12A2.25 2.25 0 0020.25 18V6A2.25 2.25 0 0018 3.75H6A2.25 2.25 0 003.75 6v12A2.25 2.25 0 006 20.25z" />
-                      </svg>
-                    </div>
-                  </div>
-                  
-                  <h3 className="text-xl font-bold mb-4 text-center text-cyan-400">Visualización de Datos e Informes Interactivos</h3>
-                  
-                  <p className="text-gray-300 flex-grow">
-                    Facilitamos la interpretación de datos complejos mediante la creación de dashboards visuales y 
-                    reportes interactivos que permiten a los tomadores de decisiones acceder a información clave de 
-                    forma clara y precisa.
-                  </p>
-                  
-                  <a href="/servicios/visualizacion" className="mt-6 text-cyan-400 group-hover:text-cyan-300 text-sm font-semibold flex items-center">
-                    Conoce más
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-4 h-4 ml-2 transform group-hover:translate-x-1 transition-transform">
-                      <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75" />
-                    </svg>
-                  </a>
-                </div>
-              </div>
-            </div>
-            
-            {/* Servicio 2: Análisis Predictivo */}
+            {/* Servicio 1: Análisis Predictivo */}
             <div className="group h-96">
               <div className="relative h-full rounded-2xl bg-gradient-to-br from-gray-900 to-gray-950 p-1 transition-all duration-500 hover:scale-[1.03] hover:shadow-xl hover:shadow-blue-500/10">
                 <div className="absolute inset-0 rounded-2xl overflow-hidden">
@@ -257,22 +191,13 @@ const DataAnalyticsContent = () => {
                   <h3 className="text-xl font-bold mb-4 text-center text-blue-400">Análisis Predictivo y Prescriptivo</h3>
                   
                   <p className="text-gray-300 flex-grow">
-                    Utilizamos modelos avanzados de análisis predictivo para ayudarte a prever tendencias futuras 
-                    basadas en datos históricos. Además, implementamos análisis prescriptivo que no solo muestra lo 
-                    que probablemente sucederá, sino también las acciones más recomendadas.
+                    "Utilizamos modelos avanzados de análisis predictivo para ayudarte a prever tendencias futuras basadas en datos históricos. Además, implementamos análisis prescriptivo que no solo muestra lo que probablemente sucederá, sino también las acciones más recomendadas para lograr resultados óptimos. Estas soluciones te permiten anticiparte al mercado y tomar decisiones informadas con confianza."
                   </p>
-                  
-                  <a href="/servicios/predictivo" className="mt-6 text-blue-400 group-hover:text-blue-300 text-sm font-semibold flex items-center">
-                    Conoce más
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-4 h-4 ml-2 transform group-hover:translate-x-1 transition-transform">
-                      <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75" />
-                    </svg>
-                  </a>
                 </div>
               </div>
             </div>
             
-            {/* Servicio 3: Minería de Datos */}
+            {/* Servicio 2: Minería de Datos */}
             <div className="group h-96">
               <div className="relative h-full rounded-2xl bg-gradient-to-br from-gray-900 to-gray-950 p-1 transition-all duration-500 hover:scale-[1.03] hover:shadow-xl hover:shadow-purple-500/10">
                 <div className="absolute inset-0 rounded-2xl overflow-hidden">
@@ -292,17 +217,34 @@ const DataAnalyticsContent = () => {
                   <h3 className="text-xl font-bold mb-4 text-center text-purple-400">Minería de Datos y Descubrimiento de Patrones</h3>
                   
                   <p className="text-gray-300 flex-grow">
-                    Aprovechamos técnicas avanzadas de minería de datos para identificar patrones, correlaciones y 
-                    oportunidades ocultas en tus bases de datos. Al profundizar en grandes volúmenes de información, 
-                    descubrimos insights clave que pueden no ser visibles a simple vista.
+                    "Aprovechamos técnicas avanzadas de minería de datos para identificar patrones, correlaciones y oportunidades ocultas en tus bases de datos. Al profundizar en grandes volúmenes de información, descubrimos insights clave que pueden no ser visibles a simple vista, permitiéndote optimizar procesos, identificar oportunidades de negocio y mejorar la toma de decisiones."
                   </p>
+                </div>
+              </div>
+            </div>
+            
+            {/* Servicio 3: Visualización de Datos */}
+            <div className="group h-96">
+              <div className="relative h-full rounded-2xl bg-gradient-to-br from-gray-900 to-gray-950 p-1 transition-all duration-500 hover:scale-[1.03] hover:shadow-xl hover:shadow-cyan-500/10">
+                <div className="absolute inset-0 rounded-2xl overflow-hidden">
+                  <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_0%,rgba(0,200,255,0.1),transparent_70%)]"></div>
+                  <div className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-cyan-500 to-transparent group-hover:animate-shimmer"></div>
+                </div>
+                
+                <div className="relative h-full flex flex-col p-6 rounded-xl bg-gray-900/90 backdrop-blur-sm">
+                  <div className="flex justify-center mb-6">
+                    <div className="flex items-center justify-center w-16 h-16 rounded-full bg-gradient-to-br from-cyan-500 to-blue-500 shadow-lg shadow-cyan-500/20">
+                      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-8 h-8 text-white">
+                        <path strokeLinecap="round" strokeLinejoin="round" d="M7.5 14.25v2.25m3-4.5v4.5m3-6.75v6.75m3-9v9M6 20.25h12A2.25 2.25 0 0020.25 18V6A2.25 2.25 0 0018 3.75H6A2.25 2.25 0 003.75 6v12A2.25 2.25 0 006 20.25z" />
+                      </svg>
+                    </div>
+                  </div>
                   
-                  <a href="/servicios/mineria" className="mt-6 text-purple-400 group-hover:text-purple-300 text-sm font-semibold flex items-center">
-                    Conoce más
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-4 h-4 ml-2 transform group-hover:translate-x-1 transition-transform">
-                      <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75" />
-                    </svg>
-                  </a>
+                  <h3 className="text-xl font-bold mb-4 text-center text-cyan-400">Visualización de Datos e Informes Interactivos</h3>
+                  
+                  <p className="text-gray-300 flex-grow">
+                    "Facilitamos la interpretación de datos complejos mediante la creación de dashboards visuales y reportes interactivos que permiten a los tomadores de decisiones acceder a información clave de forma clara y precisa. Estas visualizaciones te permitirán analizar grandes cantidades de datos en tiempo real, identificar tendencias, y tomar decisiones rápidas y bien fundamentadas."
+                  </p>
                 </div>
               </div>
             </div>
@@ -328,17 +270,8 @@ const DataAnalyticsContent = () => {
                   <h3 className="text-xl font-bold mb-4 text-center text-pink-400">Automatización de Procesos Analíticos</h3>
                   
                   <p className="text-gray-300 flex-grow">
-                    Te ayudamos a automatizar procesos repetitivos en la gestión y análisis de datos, permitiendo que tu 
-                    equipo se concentre en tareas de mayor valor. Implementamos soluciones que recopilan, procesan y 
-                    analizan datos de forma automatizada, reduciendo el tiempo y esfuerzo requerido.
+                    "Te ayudamos a automatizar procesos repetitivos en la gestión y análisis de datos, permitiendo que tu equipo se concentre en tareas de mayor valor. Implementamos soluciones que recopilan, procesan y analizan datos de forma automatizada, reduciendo el tiempo y esfuerzo requerido para obtener información relevante, y asegurando que los datos estén siempre actualizados."
                   </p>
-                  
-                  <a href="/servicios/automatizacion-analitica" className="mt-6 text-pink-400 group-hover:text-pink-300 text-sm font-semibold flex items-center">
-                    Conoce más
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-4 h-4 ml-2 transform group-hover:translate-x-1 transition-transform">
-                      <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75" />
-                    </svg>
-                  </a>
                 </div>
               </div>
             </div>
@@ -360,262 +293,18 @@ const DataAnalyticsContent = () => {
                     </div>
                   </div>
                   
-                  <h3 className="text-xl font-bold mb-4 text-center text-amber-400">Optimización del Rendimiento Empresarial</h3>
+                  <h3 className="text-xl font-bold mb-4 text-center text-amber-400">Optimización del Rendimiento Empresarial Basado en Datos</h3>
                   
                   <p className="text-gray-300 flex-grow">
-                    Convertimos los datos en un activo estratégico que impulsa el rendimiento de tu negocio. 
-                    Analizamos indicadores clave de desempeño (KPIs) en áreas como marketing, ventas, operaciones y 
-                    finanzas, brindándote una visión clara sobre dónde mejorar, reducir costos y maximizar la eficiencia.
+                    "Convertimos los datos en un activo estratégico que impulsa el rendimiento de tu negocio. Analizamos indicadores clave de desempeño (KPIs) en áreas como marketing, ventas, operaciones y finanzas, brindándote una visión clara sobre dónde mejorar, reducir costos y maximizar la eficiencia. Te ayudamos a implementar una cultura organizacional basada en datos para tomar decisiones ágiles y mejorar el rendimiento general."
                   </p>
-                  
-                  <a href="/servicios/optimizacion" className="mt-6 text-amber-400 group-hover:text-amber-300 text-sm font-semibold flex items-center">
-                    Conoce más
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-4 h-4 ml-2 transform group-hover:translate-x-1 transition-transform">
-                      <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75" />
-                    </svg>
-                  </a>
                 </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      {/* Sección de Stack Tecnológico */}
-      <section className="py-20 bg-gradient-to-b from-black to-gray-950 relative overflow-hidden">
-        <div className="absolute inset-0 bg-black/50 backdrop-blur-sm"></div>
-        
-        {/* Formas animadas */}
-        <div className="absolute inset-0 overflow-hidden">
-          <div className="absolute top-0 left-0 w-full h-full">
-            <div className="absolute -top-32 -left-32 w-64 h-64 bg-cyan-500/10 rounded-full blur-3xl animate-blob"></div>
-            <div className="absolute top-1/3 -right-32 w-80 h-80 bg-blue-500/10 rounded-full blur-3xl animate-blob animation-delay-2000"></div>
-            <div className="absolute -bottom-32 left-1/3 w-80 h-80 bg-purple-500/10 rounded-full blur-3xl animate-blob animation-delay-4000"></div>
-          </div>
-        </div>
-        
-        <div className="container mx-auto px-6 relative z-10">
-          <div className="max-w-4xl mx-auto text-center mb-16">
-            <h2 className="text-4xl font-black mb-4 text-white">
-              Tecnologías <span className="bg-clip-text text-transparent bg-gradient-to-r from-cyan-400 to-blue-400">Avanzadas</span>
-            </h2>
-            
-            <div className="h-1 w-40 mx-auto bg-gradient-to-r from-cyan-500 to-blue-500 mb-8"></div>
-            
-            <p className="text-xl text-gray-300">
-              Utilizamos las herramientas más innovadoras y potentes del mercado para potenciar tus análisis
-            </p>
-          </div>
-          
-          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-6 md:gap-10">
-            {/* Tech Stack Item 1 */}
-            <div className="group">
-              <div className="relative rounded-2xl bg-gray-900/70 backdrop-blur-sm p-6 border border-gray-800/50 transition-all duration-300 hover:border-cyan-500/30 hover:shadow-lg hover:shadow-cyan-500/10 flex flex-col items-center">
-                <div className="w-16 h-16 mb-4 relative">
-                  <div className="absolute inset-0 bg-cyan-500/20 rounded-full blur-xl transform group-hover:scale-150 transition-all duration-300"></div>
-                  <div className="relative z-10 flex items-center justify-center w-full h-full">
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-10 h-10 text-cyan-400">
-                      <path strokeLinecap="round" strokeLinejoin="round" d="M8.25 3v1.5M4.5 8.25H3m18 0h-1.5M4.5 12H3m18 0h-1.5m-15 3.75H3m18 0h-1.5M8.25 19.5V21M12 3v1.5m0 15V21m3.75-18v1.5m0 15V21m-9-1.5h10.5a2.25 2.25 0 002.25-2.25V6.75a2.25 2.25 0 00-2.25-2.25H6.75A2.25 2.25 0 004.5 6.75v10.5a2.25 2.25 0 002.25 2.25zm.75-12h9v9h-9v-9z" />
-                    </svg>
-                  </div>
-                </div>
-                <h3 className="text-center text-lg font-semibold text-cyan-400">Machine Learning</h3>
-              </div>
-            </div>
-            
-            {/* Tech Stack Item 2 */}
-            <div className="group">
-              <div className="relative rounded-2xl bg-gray-900/70 backdrop-blur-sm p-6 border border-gray-800/50 transition-all duration-300 hover:border-blue-500/30 hover:shadow-lg hover:shadow-blue-500/10 flex flex-col items-center">
-                <div className="w-16 h-16 mb-4 relative">
-                  <div className="absolute inset-0 bg-blue-500/20 rounded-full blur-xl transform group-hover:scale-150 transition-all duration-300"></div>
-                  <div className="relative z-10 flex items-center justify-center w-full h-full">
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-10 h-10 text-blue-400">
-                      <path strokeLinecap="round" strokeLinejoin="round" d="M9 17.25v1.007a3 3 0 01-.879 2.122L7.5 21h9l-.621-.621A3 3 0 0115 18.257V17.25m6-12V15a2.25 2.25 0 01-2.25 2.25H5.25A2.25 2.25 0 013 15V5.25m18 0A2.25 2.25 0 0018.75 3H5.25A2.25 2.25 0 003 5.25m18 0V12a2.25 2.25 0 01-2.25 2.25H5.25A2.25 2.25 0 013 12V5.25" />
-                    </svg>
-                  </div>
-                </div>
-                <h3 className="text-center text-lg font-semibold text-blue-400">Big Data</h3>
-              </div>
-            </div>
-            
-            {/* Tech Stack Item 3 */}
-            <div className="group">
-              <div className="relative rounded-2xl bg-gray-900/70 backdrop-blur-sm p-6 border border-gray-800/50 transition-all duration-300 hover:border-purple-500/30 hover:shadow-lg hover:shadow-purple-500/10 flex flex-col items-center">
-                <div className="w-16 h-16 mb-4 relative">
-                  <div className="absolute inset-0 bg-purple-500/20 rounded-full blur-xl transform group-hover:scale-150 transition-all duration-300"></div>
-                  <div className="relative z-10 flex items-center justify-center w-full h-full">
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-10 h-10 text-purple-400">
-                      <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 3v11.25A2.25 2.25 0 006 16.5h2.25M3.75 3h-1.5m1.5 0h16.5m0 0h1.5m-1.5 0v11.25A2.25 2.25 0 0018 16.5h-2.25m-7.5 0h7.5m-7.5 0l-1 3m8.5-3l1 3m0 0l.5 1.5m-.5-1.5h-9.5m0 0l-.5 1.5M9 11.25v1.5M12 9v3.75m3-6v6" />
-                    </svg>
-                  </div>
-                </div>
-                <h3 className="text-center text-lg font-semibold text-purple-400">Visualización</h3>
-              </div>
-            </div>
-            
-            {/* Tech Stack Item 4 */}
-            <div className="group">
-              <div className="relative rounded-2xl bg-gray-900/70 backdrop-blur-sm p-6 border border-gray-800/50 transition-all duration-300 hover:border-pink-500/30 hover:shadow-lg hover:shadow-pink-500/10 flex flex-col items-center">
-                <div className="w-16 h-16 mb-4 relative">
-                  <div className="absolute inset-0 bg-pink-500/20 rounded-full blur-xl transform group-hover:scale-150 transition-all duration-300"></div>
-                  <div className="relative z-10 flex items-center justify-center w-full h-full">
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-10 h-10 text-pink-400">
-                      <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 13.5l10.5-11.25L12 10.5h8.25L9.75 21.75 12 13.5H3.75z" />
-                    </svg>
-                  </div>
-                </div>
-                <h3 className="text-center text-lg font-semibold text-pink-400">IA Avanzada</h3>
-              </div>
-            </div>
-            
-            {/* Tech Stack Item 5 */}
-            <div className="group">
-              <div className="relative rounded-2xl bg-gray-900/70 backdrop-blur-sm p-6 border border-gray-800/50 transition-all duration-300 hover:border-amber-500/30 hover:shadow-lg hover:shadow-amber-500/10 flex flex-col items-center">
-                <div className="w-16 h-16 mb-4 relative">
-                  <div className="absolute inset-0 bg-amber-500/20 rounded-full blur-xl transform group-hover:scale-150 transition-all duration-300"></div>
-                  <div className="relative z-10 flex items-center justify-center w-full h-full">
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-10 h-10 text-amber-400">
-                      <path strokeLinecap="round" strokeLinejoin="round" d="M20.25 6.375c0 2.278-3.694 4.125-8.25 4.125S3.75 8.653 3.75 6.375m16.5 0c0-2.278-3.694-4.125-8.25-4.125S3.75 4.097 3.75 6.375m16.5 0v11.25c0 2.278-3.694 4.125-8.25 4.125s-8.25-1.847-8.25-4.125V6.375m16.5 0v3.75m-16.5-3.75v3.75m16.5 0v3.75C20.25 16.153 16.556 18 12 18s-8.25-1.847-8.25-4.125v-3.75m16.5 0c0 2.278-3.694 4.125-8.25 4.125s-8.25-1.847-8.25-4.125" />
-                    </svg>
-                  </div>
-                </div>
-                <h3 className="text-center text-lg font-semibold text-amber-400">Cloud Analytics</h3>
-              </div>
-            </div>
-            
-            {/* Tech Stack Item 6 */}
-            <div className="group">
-              <div className="relative rounded-2xl bg-gray-900/70 backdrop-blur-sm p-6 border border-gray-800/50 transition-all duration-300 hover:border-green-500/30 hover:shadow-lg hover:shadow-green-500/10 flex flex-col items-center">
-                <div className="w-16 h-16 mb-4 relative">
-                  <div className="absolute inset-0 bg-green-500/20 rounded-full blur-xl transform group-hover:scale-150 transition-all duration-300"></div>
-                  <div className="relative z-10 flex items-center justify-center w-full h-full">
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-10 h-10 text-green-400">
-                      <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75L11.25 15 15 9.75m-3-7.036A11.959 11.959 0 013.598 6 11.99 11.99 0 003 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285z" />
-                    </svg>
-                  </div>
-                </div>
-                <h3 className="text-center text-lg font-semibold text-green-400">Data Security</h3>
               </div>
             </div>
           </div>
         </div>
       </section>
       
-      {/* Sección de Casos de Éxito */}
-      <section className="py-20 bg-black relative">
-        <div className="absolute inset-0 bg-grid-pattern opacity-5"></div>
-        
-        <div className="container mx-auto px-6 relative z-10">
-          <div className="max-w-4xl mx-auto text-center mb-16">
-            <h2 className="text-4xl font-black mb-4 text-white">
-              Casos de <span className="bg-clip-text text-transparent bg-gradient-to-r from-cyan-400 to-blue-400">Éxito</span>
-            </h2>
-            
-            <div className="h-1 w-40 mx-auto bg-gradient-to-r from-cyan-500 to-blue-500 mb-8"></div>
-            
-            <p className="text-xl text-gray-300">
-              Descubre cómo hemos ayudado a empresas a transformar sus datos en resultados tangibles
-            </p>
-          </div>
-          
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
-            {/* Caso de Éxito 1 */}
-            <div className="group relative overflow-hidden rounded-2xl bg-gradient-to-br from-gray-900 to-gray-950 p-1 transition-all duration-500 hover:scale-[1.02]">
-              <div className="absolute inset-0 bg-gradient-to-r from-cyan-500/10 to-blue-500/10 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
-              
-              <div className="relative h-full flex flex-col p-6 rounded-xl bg-gray-900/90 backdrop-blur-sm">
-                <div className="mb-6">
-                  <h3 className="text-2xl font-bold mb-4 text-white group-hover:text-cyan-400 transition-colors">
-                    Optimización de Ventas
-                  </h3>
-                  <p className="text-gray-300">
-                    Una empresa de retail con presencia internacional logró incrementar sus ventas en un 32% 
-                    implementando nuestras soluciones de análisis predictivo para identificar oportunidades 
-                    de venta cruzada y optimizar la gestión de inventario.
-                  </p>
-                </div>
-                
-                <div className="mt-auto">
-                  <div className="flex items-center gap-4">
-                    <div className="w-12 h-12 rounded-full bg-gradient-to-r from-cyan-500 to-blue-500 flex items-center justify-center">
-                      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 text-white">
-                        <path strokeLinecap="round" strokeLinejoin="round" d="M15.75 10.5V6a3.75 3.75 0 10-7.5 0v4.5m11.356-1.993l1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 01-1.12-1.243l1.264-12A1.125 1.125 0 015.513 7.5h12.974c.576 0 1.059.435 1.119 1.007zM8.625 10.5a.375.375 0 11-.75 0 .375.375 0 01.75 0zm7.5 0a.375.375 0 11-.75 0 .375.375 0 01.75 0z" />
-                      </svg>
-                    </div>
-                    <div>
-                      <p className="text-cyan-400 font-semibold">Retail Internacional</p>
-                      <p className="text-gray-400 text-sm">+32% Ventas</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            
-            {/* Caso de Éxito 2 */}
-            <div className="group relative overflow-hidden rounded-2xl bg-gradient-to-br from-gray-900 to-gray-950 p-1 transition-all duration-500 hover:scale-[1.02]">
-              <div className="absolute inset-0 bg-gradient-to-r from-blue-500/10 to-purple-500/10 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
-              
-              <div className="relative h-full flex flex-col p-6 rounded-xl bg-gray-900/90 backdrop-blur-sm">
-                <div className="mb-6">
-                  <h3 className="text-2xl font-bold mb-4 text-white group-hover:text-blue-400 transition-colors">
-                    Reducción de Fraude
-                  </h3>
-                  <p className="text-gray-300">
-                    Una entidad financiera logró reducir los casos de fraude en un 78% gracias a nuestra 
-                    solución de detección de anomalías basada en machine learning, generando ahorros 
-                    significativos y mejorando la experiencia de sus clientes.
-                  </p>
-                </div>
-                
-                <div className="mt-auto">
-                  <div className="flex items-center gap-4">
-                    <div className="w-12 h-12 rounded-full bg-gradient-to-r from-blue-500 to-purple-500 flex items-center justify-center">
-                      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 text-white">
-                        <path strokeLinecap="round" strokeLinejoin="round" d="M12 21v-8.25M15.75 21v-8.25M8.25 21v-8.25M3 9l9-6 9 6m-1.5 12V10.332A48.36 48.36 0 0012 9.75c-2.551 0-5.056.2-7.5.582V21M3 21h18M12 6.75h.008v.008H12V6.75z" />
-                      </svg>
-                    </div>
-                    <div>
-                      <p className="text-blue-400 font-semibold">Entidad Financiera</p>
-                      <p className="text-gray-400 text-sm">-78% Fraude</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            
-            {/* Caso de Éxito 3 */}
-            <div className="group relative overflow-hidden rounded-2xl bg-gradient-to-br from-gray-900 to-gray-950 p-1 transition-all duration-500 hover:scale-[1.02]">
-              <div className="absolute inset-0 bg-gradient-to-r from-purple-500/10 to-pink-500/10 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
-              
-              <div className="relative h-full flex flex-col p-6 rounded-xl bg-gray-900/90 backdrop-blur-sm">
-                <div className="mb-6">
-                  <h3 className="text-2xl font-bold mb-4 text-white group-hover:text-purple-400 transition-colors">
-                    Análisis en Tiempo Real
-                  </h3>
-                  <p className="text-gray-300">
-                    Una empresa de logística implementó nuestro sistema de análisis en tiempo real para monitorear 
-                    su flota y optimizar rutas, logrando una reducción del 25% en tiempos de entrega y un ahorro 
-                    del 18% en costos operativos.
-                  </p>
-                </div>
-                
-                <div className="mt-auto">
-                  <div className="flex items-center gap-4">
-                    <div className="w-12 h-12 rounded-full bg-gradient-to-r from-purple-500 to-pink-500 flex items-center justify-center">
-                      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 text-white">
-                        <path strokeLinecap="round" strokeLinejoin="round" d="M8.25 18.75a1.5 1.5 0 01-3 0m3 0a1.5 1.5 0 00-3 0m3 0h6m-9 0H3.375a1.125 1.125 0 01-1.125-1.125V14.25m17.25 4.5a1.5 1.5 0 01-3 0m3 0a1.5 1.5 0 00-3 0m3 0h1.125c.621 0 1.129-.504 1.09-1.124a17.902 17.902 0 00-3.213-9.193 2.056 2.056 0 00-1.58-.86H14.25M16.5 18.75h-2.25m0-11.177v-.958c0-.568-.422-1.048-.987-1.106a48.554 48.554 0 00-10.026 0 1.106 1.106 0 00-.987 1.106v7.635m12-6.677v6.677m0 4.5v-4.5m0 0h-12" />
-                      </svg>
-                    </div>
-                    <div>
-                      <p className="text-purple-400 font-semibold">Empresa Logística</p>
-                      <p className="text-gray-400 text-sm">-25% Tiempos de Entrega</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
       {/* Sección CTA (Llamada a la acción) */}
       <section className="py-24 relative overflow-hidden bg-gray-950">
         <div className="absolute inset-0 bg-gradient-to-br from-gray-950 to-blue-950"></div>
@@ -642,7 +331,7 @@ const DataAnalyticsContent = () => {
               
               <div className="text-center">
                 <h2 className="text-4xl md:text-5xl font-black mb-6 text-white">
-                  ¿Listo para <span className="bg-clip-text text-transparent bg-gradient-to-r from-cyan-400 to-blue-400">transformar tus datos</span>?
+                  ¿Estás listo para <span className="bg-clip-text text-transparent bg-gradient-to-r from-cyan-400 to-blue-400">transformar tus datos</span> en una fuente de ventaja competitiva?
                 </h2>
                 
                 <div className="h-1 w-32 mx-auto bg-gradient-to-r from-cyan-500 to-blue-500 mb-8"></div>
@@ -654,26 +343,28 @@ const DataAnalyticsContent = () => {
                 
                 <div className="flex flex-col sm:flex-row items-center justify-center gap-6">
                   <a 
-                    href="/evaluacion-gratuita" 
+                    href="/contacto" 
                     className="group w-full sm:w-auto relative overflow-hidden rounded-full py-4 px-8 bg-gradient-to-r from-cyan-500 to-blue-500 text-white font-bold shadow-lg shadow-cyan-500/20 hover:shadow-cyan-500/40 transform transition-all duration-300 hover:-translate-y-1"
                   >
                     <span className="relative z-10 flex items-center justify-center">
-                      <span>¡Comienza Ahora!</span>
+                      <span>Contáctanos</span>
                       <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor" className="w-5 h-5 ml-2 transform group-hover:translate-x-1 transition-transform">
-                        <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+                      <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
                       </svg>
                     </span>
                     <span className="absolute inset-0 bg-gradient-to-r from-blue-600 to-cyan-600 translate-y-full group-hover:translate-y-0 transition-transform duration-300 ease-in-out"></span>
                   </a>
                   
+                  {/* Botón de WhatsApp */}
                   <a 
-                    href="/demo-virtual" 
-                    className="group w-full sm:w-auto relative overflow-hidden rounded-full py-4 px-8 bg-transparent border border-cyan-500 text-cyan-400 font-bold"
+                    href="https://wa.me/51914811842?text=Hola,%20estoy%20interesado%20en%20sus%20servicios%20de%20Data%20Analytics.%20¿Podría%20recibir%20más%20información?" 
+                    className="w-16 h-16 bg-green-500 rounded-full flex items-center justify-center transition-transform hover:scale-110 hover:shadow-lg hover:shadow-green-500/20"
+                    title="Conversemos sobre cómo transformar tus datos en decisiones estratégicas"
                   >
-                    <span className="relative z-10 flex items-center justify-center">
-                      <span>Solicitar Demo</span>
-                    </span>
-                    <span className="absolute inset-0 translate-y-full group-hover:translate-y-0 bg-gradient-to-r from-cyan-500/20 to-blue-500/20 transition-transform duration-300 ease-in-out"></span>
+                    {/* Logo de WhatsApp */}
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" className="w-8 h-8 text-white fill-current">
+                      <path d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7.9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z"/>
+                    </svg>
                   </a>
                 </div>
               </div>

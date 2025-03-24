@@ -115,42 +115,23 @@ const GestionProyectosContent = () => {
             <div className="mb-6 relative">
               <h1 className="text-6xl md:text-7xl font-black tracking-tight mb-2 text-white">
                 <span className="relative">
-                  <span className="relative z-10">GESTIÓN</span>
+                  <span className="relative z-10">LLEVA TUS PROYECTO</span>
                   <span className="absolute top-0 left-0 w-full h-full bg-gradient-to-r from-cyan-500 to-blue-500 blur-xl opacity-30 animate-pulse"></span>
                 </span>{" "}
                 <span className="bg-clip-text text-transparent bg-gradient-to-r from-cyan-400 to-blue-400">
-                  INTEGRAL
+                AL ÉXITO CON UNA GESTIÓN
                 </span>
               </h1>
               <div className="h-0.5 w-32 mx-auto bg-gradient-to-r from-cyan-400 to-blue-500"></div>
               <h2 className="text-5xl md:text-6xl font-black tracking-tight mt-2 text-white">
                 <span className="relative">
-                  <span className="relative z-10">DE PROYECTOS</span>
+                  <span className="relative z-10">EXPERTA Y EFICIENTE</span>
                   <span className="absolute top-0 left-0 w-full h-full bg-gradient-to-r from-cyan-500 to-blue-500 blur-xl opacity-30 animate-pulse animation-delay-1000"></span>
                 </span>
               </h2>
             </div>
-            <p className="text-xl md:text-2xl text-cyan-100 mb-10 font-light tracking-wide">
-              Soluciones expertas para garantizar el éxito de tus iniciativas empresariales
-            </p>
             
-            <div className="flex flex-col md:flex-row items-center justify-center gap-6">
-              <a 
-                href="/evaluacion-gratuita" 
-                className="group relative overflow-hidden rounded-full py-4 px-8 bg-transparent border border-cyan-500 text-cyan-400 font-bold"
-              >
-                <span className="relative z-10">Consulta Gratuita</span>
-                <span className="absolute inset-0 translate-y-full group-hover:translate-y-0 bg-gradient-to-r from-cyan-500 to-blue-500 transition-transform duration-300 ease-in-out"></span>
-              </a>
-              
-              <a 
-                href="/contacto" 
-                className="group relative overflow-hidden rounded-full py-4 px-8 bg-gradient-to-r from-cyan-500 to-blue-500 text-white font-bold shadow-lg shadow-cyan-500/20"
-              >
-                <span className="relative z-10">Contáctanos Ahora</span>
-                <span className="absolute inset-0 translate-y-full group-hover:translate-y-0 bg-gradient-to-r from-blue-600 to-cyan-600 transition-transform duration-300 ease-in-out"></span>
-              </a>
-            </div>
+       
           </div>
         </div>
         
@@ -175,12 +156,11 @@ const GestionProyectosContent = () => {
               
               <p className="text-lg text-gray-300 mb-6 relative z-10">
                 En <span className="font-bold text-cyan-400">JM AI Consulting</span>, ofrecemos servicios especializados de 
-                <span className="font-bold text-cyan-400"> gestión de proyectos</span> diseñados para ayudarte a alcanzar tus objetivos empresariales de manera eficiente y efectiva. 
+                <span className="font-bold text-cyan-400">  consultoría en gestión de proyectos</span> para asegurar que tus iniciativas se ejecuten de manera eficiente, cumpliendo con los plazos, presupuestos y objetivos establecidos.
               </p>
               
               <p className="text-lg text-gray-300 relative z-10">
-                Mediante un enfoque estructurado y metodologías probadas, te ayudamos a planificar, ejecutar y controlar cada etapa 
-                de tus proyectos, <span className="font-bold text-cyan-400">asegurando resultados exitosos</span> y maximizando el retorno de inversión para tu organización.
+              Con nuestra experiencia, ayudamos a las organizaciones a gestionar cada fase del ciclo de vida del proyecto, asegurando una planificación, implementación y entrega impecables.  <span className="font-bold text-cyan-400">Ofrecemos servicios de consultoría basados en estándares globales</span> como el estándar para la Dirección de Proyectos y la Guía del PMBOK® y metodologías ágiles como Scrum. 
               </p>
             </div>
           </div>
@@ -215,11 +195,10 @@ const GestionProyectosContent = () => {
                     </div>
                   </div>
                   
-                  <h3 className="text-xl font-bold mb-4 text-center text-cyan-400">Planificación Estratégica</h3>
+                  <h3 className="text-xl font-bold mb-4 text-center text-cyan-400">Planificación Estratégica de Proyectos</h3>
                   
                   <p className="text-gray-300 flex-grow">
-                    Desarrollamos planes detallados para tu proyecto definiendo claramente alcance, objetivos, plazos y recursos necesarios. 
-                    Nuestro enfoque metódico garantiza una planificación robusta que sirve como base para el éxito del proyecto.
+                  Establecemos un marco sólido para el éxito de tu proyecto, definiendo de manera clara el alcance, los objetivos, las metas y los resultados esperados. Trabajamos contigo para crear un plan detallado que aborde las necesidades del proyecto, la asignación de recursos, los plazos y el presupuesto, alineando el proyecto con la estrategia global de tu organización
                   </p>
                   
                   <a href="/servicios/planificacion" className="mt-6 text-cyan-400 group-hover:text-cyan-300 text-sm font-semibold flex items-center">
@@ -249,12 +228,10 @@ const GestionProyectosContent = () => {
                     </div>
                   </div>
                   
-                  <h3 className="text-xl font-bold mb-4 text-center text-blue-400">Gestión de Riesgos</h3>
+                  <h3 className="text-xl font-bold mb-4 text-center text-blue-400">Gestión de Riesgos del Proyecto</h3>
                   
                   <p className="text-gray-300 flex-grow">
-                    Identificamos y analizamos potenciales riesgos que podrían afectar tu proyecto, 
-                    desarrollando planes de contingencia efectivos para mitigar su impacto y asegurar 
-                    que tu proyecto avance sin contratiempos significativos.
+                  Te ayudamos a identificar y gestionar los riesgos que podrían afectar el éxito de tu proyecto. Analizamos las posibles amenazas y desarrollamos planes de contingencia efectivos para minimizar el impacto de los riesgos. Con nuestras herramientas de evaluación y monitoreo de riesgos, garantizamos que tu proyecto esté preparado para enfrentar cualquier desafío inesperado.
                   </p>
                   
                   <a href="/servicios/riesgos" className="mt-6 text-blue-400 group-hover:text-blue-300 text-sm font-semibold flex items-center">
@@ -284,12 +261,10 @@ const GestionProyectosContent = () => {
                     </div>
                   </div>
                   
-                  <h3 className="text-xl font-bold mb-4 text-center text-purple-400">Gestión de Recursos</h3>
+                  <h3 className="text-xl font-bold mb-4 text-center text-purple-400">Gestión de Recursos y Equipos</h3>
                   
                   <p className="text-gray-300 flex-grow">
-                    Optimizamos la asignación y utilización de recursos humanos, materiales y financieros 
-                    para tu proyecto. Implementamos estrategias que aseguran el máximo rendimiento y 
-                    evitan desperdicios o ineficiencias.
+                  Maximizamos la eficiencia de los recursos asignados al proyecto, asegurando que tanto el equipo como los recursos financieros y tecnológicos se utilicen de manera óptima. Ayudamos a crear un entorno de trabajo colaborativo y productivo, garantizando que el equipo esté alineado con los objetivos del proyecto y que los recursos se gestionen de manera sostenible
                   </p>
                   
                   <a href="/servicios/recursos" className="mt-6 text-purple-400 group-hover:text-purple-300 text-sm font-semibold flex items-center">
@@ -319,12 +294,10 @@ const GestionProyectosContent = () => {
                     </div>
                   </div>
                   
-                  <h3 className="text-xl font-bold mb-4 text-center text-pink-400">Monitoreo y Control</h3>
+                  <h3 className="text-xl font-bold mb-4 text-center text-pink-400">Supervisión y Control del Progreso</h3>
                   
                   <p className="text-gray-300 flex-grow">
-                    Implementamos sistemas de seguimiento en tiempo real para supervisar el progreso de tu proyecto.
-                    Utilizamos KPIs personalizados para evaluar el rendimiento y aplicar medidas correctivas 
-                    oportunas cuando sea necesario.
+                  A lo largo de la ejecución del proyecto, proporcionamos monitoreo continuo para asegurarnos de que el proyecto avance según lo planificado. Utilizamos indicadores clave de rendimiento (KPIs) para evaluar el progreso y, cuando es necesario, implementamos medidas correctivas para mantener el proyecto en el camino correcto. Nuestro enfoque ágil permite hacer ajustes rápidos sin comprometer los objetivos.
                   </p>
                   
                   <a href="/servicios/monitoreo" className="mt-6 text-pink-400 group-hover:text-pink-300 text-sm font-semibold flex items-center">
@@ -354,12 +327,10 @@ const GestionProyectosContent = () => {
                     </div>
                   </div>
                   
-                  <h3 className="text-xl font-bold mb-4 text-center text-amber-400">Capacitación en Gestión</h3>
+                  <h3 className="text-xl font-bold mb-4 text-center text-amber-400">Cierre y Evaluación del Proyecto</h3>
                   
                   <p className="text-gray-300 flex-grow">
-                    Formamos a tu equipo en las mejores prácticas y metodologías de gestión de proyectos.
-                    Desarrollamos programas personalizados para fortalecer las habilidades clave de liderazgo 
-                    y gestión efectiva de recursos y tiempos.
+                  Una vez que el proyecto ha sido completado, te ayudamos a cerrar formalmente todas las fases, asegurando que se hayan cumplido todos los objetivos. Realizamos una evaluación integral del proyecto para identificar lecciones aprendidas, oportunidades de mejora y áreas de éxito que pueden aplicarse en futuros proyectos. El cierre adecuado del proyecto es clave para consolidar el éxito y capitalizar el aprendizaje obtenido.
                   </p>
                   
                   <a href="/servicios/capacitacion" className="mt-6 text-amber-400 group-hover:text-amber-300 text-sm font-semibold flex items-center">
@@ -400,23 +371,22 @@ const GestionProyectosContent = () => {
               
               <div className="text-center">
                 <h2 className="text-4xl md:text-5xl font-black mb-6 text-white">
-                  ¿Listo para <span className="bg-clip-text text-transparent bg-gradient-to-r from-cyan-400 to-blue-400">Potenciar</span> tus Proyectos?
+                ¿Estás buscando una <span className="bg-clip-text text-transparent bg-gradient-to-r from-cyan-400 to-blue-400">gestión experta</span> para asegurar el éxito de tus proyectos?
                 </h2>
                 
                 <div className="h-1 w-32 mx-auto bg-gradient-to-r from-cyan-500 to-blue-500 mb-8"></div>
                 
                 <p className="text-xl text-gray-300 mb-10">
-                  Descubre cómo nuestra experiencia en gestión de proyectos puede ayudarte a maximizar 
-                  la eficiencia, reducir riesgos y garantizar el cumplimiento de tus objetivos estratégicos
+                Estamos listos para apoyarte en cada etapa, desde la planificación hasta la ejecución y el cierre del proyecto, brindando soluciones efectivas y personalizadas que impulsarán el éxito de tu negocio.
                 </p>
                 
                 <div className="flex flex-col sm:flex-row items-center justify-center gap-6">
                   <a 
-                    href="/evaluacion-gratuita" 
+                    href="/contacto" 
                     className="group w-full sm:w-auto relative overflow-hidden rounded-full py-4 px-8 bg-gradient-to-r from-cyan-500 to-blue-500 text-white font-bold shadow-lg shadow-cyan-500/20 hover:shadow-cyan-500/40 transform transition-all duration-300 hover:-translate-y-1"
                   >
                     <span className="relative z-10 flex items-center justify-center">
-                      <span>¡Agenda una Consulta!</span>
+                      <span>Contáctanos</span>
                       <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor" className="w-5 h-5 ml-2 transform group-hover:translate-x-1 transition-transform">
                         <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
                       </svg>
@@ -424,15 +394,7 @@ const GestionProyectosContent = () => {
                     <span className="absolute inset-0 bg-gradient-to-r from-blue-600 to-cyan-600 translate-y-full group-hover:translate-y-0 transition-transform duration-300 ease-in-out"></span>
                   </a>
                   
-                  <a 
-                    href="/metodologia" 
-                    className="group w-full sm:w-auto relative overflow-hidden rounded-full py-4 px-8 bg-transparent border border-cyan-500 text-cyan-400 font-bold"
-                  >
-                    <span className="relative z-10 flex items-center justify-center">
-                      <span>Nuestra Metodología</span>
-                    </span>
-                    <span className="absolute inset-0 translate-y-full group-hover:translate-y-0 bg-gradient-to-r from-cyan-500/20 to-blue-500/20 transition-transform duration-300 ease-in-out"></span>
-                  </a>
+                  
                 </div>
               </div>
             </div>

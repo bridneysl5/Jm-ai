@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { FaFacebookF, FaLinkedinIn, FaTwitter, FaInstagram, FaWhatsapp } from 'react-icons/fa';
+import { FaFacebookF, FaLinkedinIn, FaTwitter, FaInstagram, FaWhatsapp, FaTiktok } from 'react-icons/fa';
 import { MdEmail, MdLocationOn, MdPhone, MdSecurity, MdPrivacyTip } from 'react-icons/md';
 import { HiDocumentText } from 'react-icons/hi';
 import { RiCopyrightLine } from 'react-icons/ri';
@@ -88,7 +88,12 @@ const ModernFooter = () => {
                 <a href="https://www.linkedin.com/company/jmaiconsulting/?viewAsMember=true" className="w-9 h-9 rounded-full bg-gray-800 flex items-center justify-center hover:bg-blue-700 transition-colors">
                   <FaLinkedinIn className="text-white" />
                 </a>
-                
+                <a href="https://www.instagram.com/jmai_consulting?igsh=anBudzF2Z2hydTI2" className="w-9 h-9 rounded-full bg-gray-800 flex items-center justify-center hover:bg-pink-600 transition-colors">
+                  <FaInstagram className="text-white" />
+                </a>
+                <a href="https://www.tiktok.com/@jmai_consulting" className="w-9 h-9 rounded-full bg-gray-800 flex items-center justify-center hover:bg-black transition-colors">
+                  <FaTiktok className="text-white" />
+                </a>
               </div>
             </div>
           </div>
@@ -205,12 +210,7 @@ const ModernFooter = () => {
                   <span>contacto@jmaiconsulting.pe</span>
                 </a>
               </li>
-              <li>
-                <a href="https://maps.google.com" className="text-gray-400 hover:text-cyan-400 transition-colors flex items-start">
-                  <MdLocationOn className="text-cyan-500 mt-1 mr-3 flex-shrink-0" />
-                  <span>Av. Nogales 251</span>
-                </a>
-              </li>
+            
               <li>
                 <a href="https://wa.me/51914811842" className="text-gray-400 hover:text-cyan-400 transition-colors flex items-start">
                   <FaWhatsapp className="text-cyan-500 mt-1 mr-3 flex-shrink-0" />
@@ -255,4 +255,3 @@ const ModernFooter = () => {
 };
 
 export default ModernFooter;
-
