@@ -187,7 +187,7 @@ const FuturisticContact = () => {
               <div className="relative overflow-hidden rounded-xl">
                 <div className="absolute inset-0 bg-black opacity-30" />
                 <img 
-                  src="/api/placeholder/600/400" 
+                  src="/images/services/Contáctanos.png" 
                   alt="JM AI Consulting"
                   className="w-full h-48 object-cover rounded-xl" 
                 />
@@ -198,8 +198,7 @@ const FuturisticContact = () => {
             </div>
             
             <p className="mb-6 text-gray-300">
-              En JM AI Consulting, estamos listos para acompañarte en cada paso hacia la transformación digital de tu empresa. Si tienes alguna pregunta, inquietud o deseas conocer más sobre cómo podemos ayudarte a alcanzar tus objetivos, no dudes en contactarnos.
-            </p>
+            ¡Tu transformación comienza hoy! En JM AI CONSULTING estamos comprometidos a impulsar el desarrollo y la modernización de tu organización con soluciones de consultoría personalizadas. Desde la Gestión por Procesos y del Conocimiento hasta la Transformación Digital, Gestión de Riesgos, Gestión de Proyectos, Data Analytics y BPM, nuestro equipo de expertos está listo para acompañarte en cada paso del camino.            </p>
             
             <div className="space-y-4">
               <a href="mailto:hola@jmaiconsulting.pe" className="flex items-center group">

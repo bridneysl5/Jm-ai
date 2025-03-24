@@ -14,7 +14,7 @@ const ServicesCarousel = () => {
       id: 1,
       title: 'GESTIÓN POR PROCESOS',
       description: 'Basándonos en la Norma Técnica N° 002 -2025-PCM-SGP, en JM AI Consulting le ofrecemos una consultoría especializada para implementar una gestión por procesos efectiva que transforme su organización.',
-      image: '/images/services/process-management.png',
+      image: '/images/services/Gestión-por-procesos.png',
       gradient: 'from-cyan-400 via-blue-500 to-purple-600',
       icon: 'M13 10V3L4 14h7v7l9-11h-7z', // Lightning bolt icon
       color: '#00ffff',
@@ -25,7 +25,7 @@ const ServicesCarousel = () => {
       id: 2,
       title: 'GESTIÓN DEL CONOCIMIENTO',
       description: 'Implementamos la Gestión del Conocimiento para mejorar eficiencia operativa y decisiones estratégicas, aplicando la Norma Técnica N° 001-2025-PCM/SGP y estándares internacionales.',
-      image: '/images/services/knowledge-management.png',
+      image: '/images/services/Gestión-del-conocimiento.png',
       gradient: 'from-amber-400 via-orange-500 to-red-500',
       icon: 'M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253', // Book icon
       color: '#ffa200',
@@ -36,7 +36,7 @@ const ServicesCarousel = () => {
       id: 3,
       title: 'SISTEMAS DE GESTIÓN ISO',
       description: 'Somos expertos en la implementación, mejora y mantenimiento de sistemas de gestión bajo las normas más reconocidas a nivel mundial. Nuestro enfoque se adapta a las necesidades particulares de cada organización, garantizando soluciones personalizadas y efectivas.',
-      image: '/images/services/management-systems.png',
+      image: '/images/services/Sistemas-de-Gestión.png',
       gradient: 'from-teal-400 via-cyan-500 to-blue-600',
       icon: 'M9 20l-5.447-2.724A1 1 0 013 16.382V5.618a1 1 0 011.447-.894L9 7m0 13l6-3m-6 3V7m6 10l4.553 2.276A1 1 0 0021 18.382V7.618a1 1 0 00-.553-.894L15 4m0 13V4m0 0L9 7', // Cube icon
       color: '#00ffe0',
@@ -47,7 +47,7 @@ const ServicesCarousel = () => {
       id: 4,
       title: 'TRANSFORMACIÓN DIGITAL',
       description: 'Ofrecemos el servicio de consultoría integral en transformación digital, diseñado para guiar a tu organización, ya sea privada o pública, a maximizar las oportunidades del mundo digital',
-      image: '/images/services/digital-transformation.png',
+      image: '/images/services/Transformación-digital.png',
       gradient: 'from-cyan-400 via-blue-500 to-purple-600',
       icon: 'M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z', // Computer icon
       color: '#00ffff',
@@ -58,7 +58,7 @@ const ServicesCarousel = () => {
       id: 5,
       title: 'GESTIÓN DE RIESGOS',
       description: '"Ofrecemos servicios especializados en gestión de riesgos para ayudar a las organizaciones a identificar, evaluar, gestionar y aprovechar tanto los riesgos como las oportunidades',
-      image: '/images/services/risk-management.png',
+      image: '/images/services/Gestión-de-riesgos.png',
       gradient: 'from-emerald-400 via-teal-500 to-cyan-600',
       icon: 'M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z', // Warning icon
       color: '#00ff9d',
@@ -69,7 +69,7 @@ const ServicesCarousel = () => {
       id: 6,
       title: 'GESTIÓN DE PROYECTOS',
       description: 'Ofrecemos servicios especializados de consultoría en gestión de proyectos para asegurar que tus iniciativas se ejecuten de manera eficiente, cumpliendo con los plazos, presupuestos y objetivos establecidos.',
-      image: '/images/services/project-management.png',
+      image: '/images/services/Gestión-de-poryectos.png',
       gradient: 'from-blue-400 via-indigo-500 to-purple-600',
       icon: 'M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-3 7h3m-3 4h3m-6-4h.01M9 16h.01', // Clipboard icon
       color: '#8080ff',
@@ -80,7 +80,7 @@ const ServicesCarousel = () => {
       id: 7,
       title: 'DATA ANALYTICS',
       description: 'Ofrecemos servicios especializados de consultoría en Data Analytics para ayudar a las organizaciones a aprovechar el poder de los datos y convertirlos en conocimientos valiosos que impulsen el crecimiento y mejoren la eficiencia operativa.',
-      image: '/images/services/data.png',
+      image: '/images/services/Data-Analytics.png',
       gradient: 'from-purple-400 via-pink-500 to-red-600',
       icon: 'M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z', // Chart icon
       color: '#ff00ff',
@@ -91,7 +91,7 @@ const ServicesCarousel = () => {
       id: 8,
       title: 'BPM',
       description: 'Nos especializamos en guiar a las organizaciones a través de todo el ciclo de vida de BPM con la finalidad de impulsar los resultados comerciales, crear valor y permitir que las organizaciones cumplan sus objetivos de negocios con mayor agilidad.',
-      image: '/images/services/bpm.png',
+      image: '/images/services/BPM.png',
       gradient: 'from-blue-500 via-indigo-600 to-violet-700',
       icon: 'M4 5a1 1 0 011-1h14a1 1 0 011 1v2a1 1 0 01-1 1H5a1 1 0 01-1-1V5zM4 13a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H5a1 1 0 01-1-1v-6zM16 13a1 1 0 011-1h2a1 1 0 011 1v6a1 1 0 01-1 1h-2a1 1 0 01-1-1v-6z', // Workflow icon
       color: '#4d7aff',

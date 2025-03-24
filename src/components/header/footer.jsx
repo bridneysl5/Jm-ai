@@ -172,14 +172,14 @@ const ModernFooter = () => {
               <li>
                 <a href="/evaluacion-gratuita" className="text-gray-400 hover:text-cyan-400 transition-colors flex items-center">
                   <span className="h-1.5 w-1.5 rounded-full bg-cyan-500 mr-2"></span>
-                  EVALUACIÓN GRATUITA
+                  Evaluación Gratuita
                 </a>
               </li>
               
               <li>
                 <a href="/recursos" className="text-gray-400 hover:text-cyan-400 transition-colors flex items-center">
                   <span className="h-1.5 w-1.5 rounded-full bg-cyan-500 mr-2"></span>
-                  Recursos y Podcast
+                  Recursos
                 </a>
               </li>
               <li>
